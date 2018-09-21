@@ -1,0 +1,1 @@
+maPile := Pile new initialize: 5.maPile push: 1.maPile top.maPile grow.

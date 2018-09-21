@@ -1,0 +1,1 @@
+maPile := Pile new.
