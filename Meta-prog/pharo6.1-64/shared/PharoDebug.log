@@ -8636,3 +8636,2174 @@ false ] whileFalse: [  ] ] in MorphicUIManager>>spawnNewProcess
 Processor terminateActive ] in BlockClosure>>newProcess
 -------------------------------------------------------------------------------
 
+THERE_BE_DRAGONS_HERE
+Instance of IDM did not understand #idmpile
+5 October 2018 11:08:53.357203 am
+
+VM: unix - x86_64 - linux-gnu - CoInterpreter VMMaker.oscog-eem.2380 uuid: c76d37e1-445c-4e34-9796-fc836dfd50c9 May  9 2018
+StackToRegisterMappingCogit VMMaker.oscog-eem.2380 uuid: c76d37e1-445c-4e34-9796-fc836dfd50c9 May  9 2018
+VM: 201805090836 https://github.com/OpenSmalltalk/opensmalltalk-vm.git Date: Wed May 9 10:36:12 2018 CommitHash: 334be97 Plugins: 201805090836 https://github.com/OpenSmalltalk/opensmalltalk-vm.git
+
+Image: Pharo6.0 [Latest update: #60543]
+
+IDM(Object)>>doesNotUnderstand: #idmpile
+	Receiver: une Pile, de taille: 5 contenant: 0 objets : (nil nil nil nil nil )
+	Arguments and temporary variables: 
+		aMessage: 	idmpile
+		exception: 	MessageNotUnderstood: IDM>>idmpile
+		resumeValue: 	nil
+	Receiver's instance variables: 
+		contenu: 	#(nil nil nil nil nil)
+		index: 	0
+		capacite: 	5
+
+
+UndefinedObject>>DoIt
+	Receiver: nil
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+nil
+
+OpalCompiler>>evaluate
+	Receiver: an OpalCompiler
+	Arguments and temporary variables: 
+		value: 	nil
+		selectedSource: 	'i idmpile.'
+		itsSelection: 	a Text for 'i idmpile.'
+		itsSelectionString: 	'i idmpile.'
+	Receiver's instance variables: 
+		ast: 	DoIt
+	^ i idmpile
+		source: 	a ReadStream
+		context: 	nil
+		receiver: 	nil
+		compilationContext: 	a CompilationContext
+		compilationContextClass: 	nil
+
+
+RubSmalltalkEditor>>evaluate:andDo:
+	Receiver: a RubSmalltalkEditor
+	Arguments and temporary variables: 
+THERE_BE_DRAGONS_HERE
+Instance of IDM did not understand #idmpile
+5 October 2018 11:09:04.682642 am
+
+VM: unix - x86_64 - linux-gnu - CoInterpreter VMMaker.oscog-eem.2380 uuid: c76d37e1-445c-4e34-9796-fc836dfd50c9 May  9 2018
+StackToRegisterMappingCogit VMMaker.oscog-eem.2380 uuid: c76d37e1-445c-4e34-9796-fc836dfd50c9 May  9 2018
+VM: 201805090836 https://github.com/OpenSmalltalk/opensmalltalk-vm.git Date: Wed May 9 10:36:12 2018 CommitHash: 334be97 Plugins: 201805090836 https://github.com/OpenSmalltalk/opensmalltalk-vm.git
+
+Image: Pharo6.0 [Latest update: #60543]
+
+IDM(Object)>>doesNotUnderstand: #idmpile
+	Receiver: une Pile, de taille: 5 contenant: 0 objets : (nil nil nil nil nil )
+	Arguments and temporary variables: 
+		aMessage: 	idmpile
+		exception: 	MessageNotUnderstood: IDM>>idmpile
+		resumeValue: 	nil
+	Receiver's instance variables: 
+		contenu: 	#(nil nil nil nil nil)
+		index: 	0
+		capacite: 	5
+
+
+UndefinedObject>>DoIt
+	Receiver: nil
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+nil
+
+OpalCompiler>>evaluate
+	Receiver: an OpalCompiler
+	Arguments and temporary variables: 
+		value: 	nil
+		selectedSource: 	'
+i idmpile.'
+		itsSelection: 	a Text for '
+i idmpile.'
+		itsSelectionString: 	'
+i idmpile.'
+	Receiver's instance variables: 
+		ast: 	DoIt
+	^ i idmpile
+		source: 	a ReadStream
+		context: 	nil
+		receiver: 	nil
+		compilationContext: 	a CompilationContext
+		compilationContextClass: 	nil
+
+
+RubSmalltalkEditor>>evaluate:andDo:
+	Receiver: a RubSmalltalkEditor
+	Arguments and temporary variables: 
+		aStream: 	a ReadStream
+		aBlock: 	[ :result | aBlock value: result ]
+		result: 	nil
+		rcvr: 	nil
+		ctxt: 	nil
+	Receiver's instance variables: 
+		defaultKeymappingIndex: 	an IdentityDictionary(#command->#(#noop: #cursorHome: #...etc...
+		textArea: 	a RubEditingArea(512386816)
+		selectorChooser: 	nil
+		notificationStrategy: 	a GLMPopperNotificationStrategy
+
+
+RubSmalltalkEditor>>highlightEvaluateAndDo:
+	Receiver: a RubSmalltalkEditor
+	Arguments and temporary variables: 
+		aBlock: 	[ :result | text selection: result ]
+	Receiver's instance variables: 
+		defaultKeymappingIndex: 	an IdentityDictionary(#command->#(#noop: #cursorHome: #...etc...
+		textArea: 	a RubEditingArea(512386816)
+		selectorChooser: 	nil
+		notificationStrategy: 	a GLMPopperNotificationStrategy
+
+
+[ textMorph textArea editor highlightEvaluateAndDo: ann action.
+textMorph shoutStyler style: textMorph text ] in [ textMorph textArea
+	handleEdit: [ textMorph textArea editor highlightEvaluateAndDo: ann action.
+		textMorph shoutStyler style: textMorph text ] ] in GLMMorphicPharoScriptRenderer(GLMMorphicPharoCodeRenderer)>>actOnHighlightAndEvaluate:
+	Receiver: a GLMMorphicPharoScriptRenderer
+	Arguments and temporary variables: 
+		ann: 	a GLMHighlightAndEvaluate
+	Receiver's instance variables: 
+		renderer: 	a GLMMorphicRenderer
+		textMorph: 	a RubScrolledTextMorph(115479552)
+		textModel: 	a GLMRubricSmalltalkTextModel
+
+
+RubEditingArea(RubAbstractTextArea)>>handleEdit:
+	Receiver: a RubEditingArea(512386816)
+	Arguments and temporary variables: 
+		editBlock: 	[ textMorph textArea editor highlightEvaluateAndDo: ann action.
+text...etc...
+	Receiver's instance variables: 
+		bounds: 	(0@0) corner: (285@50)
+		owner: 	a TransformWithLayoutMorph(279821568)
+		submorphs: 	an Array(a RubPrimarySelectionMorph(822435328) a RubCursor(253863680...etc...
+		fullBounds: 	nil
+		color: 	Color transparent
+		extension: 	a MorphExtension (908720640) [other:  (announcer -> an Announcer) (k...etc...
+		model: 	a GLMRubricSmalltalkTextModel
+		paragraph: 	a RubShoutStylerDecorator
+		editor: 	a RubSmalltalkEditor
+		scrollPane: 	a RubTextScrollPane(1048066048)
+		editingState: 	a RubEditingState
+		textStyle: 	a TextStyle Source Code Pro
+		textColor: 	Color white
+		margins: 	(6@6) corner: (6@6)
+		readOnly: 	false
+		menuAllowed: 	nil
+		editingMode: 	a RubSmalltalkScriptingMode
+		cursor: 	a RubCursor(253863680)
+		segments: 	an OrderedCollection(a RubHighlightSegmentMorph(1041867264))
+		getMenuPolicy: 	nil
+		mouseDownPoint: 	nil
+		wrapped: 	true
+		editorClass: 	RubSmalltalkEditor
+
+
+[ textMorph textArea
+	handleEdit: [ textMorph textArea editor highlightEvaluateAndDo: ann action.
+		textMorph shoutStyler style: textMorph text ] ] in GLMMorphicPharoScriptRenderer(GLMMorphicPharoCodeRenderer)>>actOnHighlightAndEvaluate:
+	Receiver: a GLMMorphicPharoScriptRenderer
+	Arguments and temporary variables: 
+		ann: 	a GLMHighlightAndEvaluate
+	Receiver's instance variables: 
+		renderer: 	a GLMMorphicRenderer
+		textMorph: 	a RubScrolledTextMorph(115479552)
+		textModel: 	a GLMRubricSmalltalkTextModel
+
+
+WorldState>>runStepMethodsIn:
+	Receiver: a WorldState
+	Arguments and temporary variables: 
+		aWorld: 	a WorldMorph(562956288) [world]
+		queue: 	WaitfreeQueue with 0 items
+		nextInQueue: 	[ textMorph textArea
+	handleEdit: [ textMorph textArea editor high...etc...
+	Receiver's instance variables: 
+		hands: 	an Array(a HandMorph(58125568))
+		viewBox: 	(0@0) corner: (1920@1031)
+		canvas: 	a FormCanvas on: DisplayScreen(1920x1031x32)
+		damageRecorder: 	a DamageRecorder
+		stepList: 	a Heap(StepMessage(#stepAt: -> a DropListMorph(428598016))(a DropList...etc...
+		lastStepTime: 	4673505
+		lastStepMessage: 	nil
+		lastCycleTime: 	4673526
+		alarms: 	a Heap(MorphicAlarm(#hideShow -> a RubCursor(253863680)))
+		lastAlarmTime: 	4673505
+		menuBuilder: 	a PragmaMenuBuilder ( nil ) 
+		activeHand: 	a HandMorph(58125568)
+
+
+WorldMorph>>runStepMethods
+	Receiver: a WorldMorph(562956288) [world]
+	Arguments and temporary variables: 
+THERE_BE_DRAGONS_HERE
+KeyNotFound: key #grow not found in MethodDictionary
+5 October 2018 11:09:59.570631 am
+
+VM: unix - x86_64 - linux-gnu - CoInterpreter VMMaker.oscog-eem.2380 uuid: c76d37e1-445c-4e34-9796-fc836dfd50c9 May  9 2018
+StackToRegisterMappingCogit VMMaker.oscog-eem.2380 uuid: c76d37e1-445c-4e34-9796-fc836dfd50c9 May  9 2018
+VM: 201805090836 https://github.com/OpenSmalltalk/opensmalltalk-vm.git Date: Wed May 9 10:36:12 2018 CommitHash: 334be97 Plugins: 201805090836 https://github.com/OpenSmalltalk/opensmalltalk-vm.git
+
+Image: Pharo6.0 [Latest update: #60543]
+
+MethodDictionary(Dictionary)>>errorKeyNotFound:
+	Receiver: a MethodDictionary()
+	Arguments and temporary variables: 
+		aKey: 	#grow
+	Receiver's instance variables: 
+		tally: 	0
+		array: 	#(nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil ni...etc...
+
+
+[ self errorKeyNotFound: key ] in MethodDictionary(Dictionary)>>at:
+	Receiver: a MethodDictionary()
+	Arguments and temporary variables: 
+		key: 	#grow
+	Receiver's instance variables: 
+		tally: 	0
+		array: 	#(nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil ni...etc...
+
+
+MethodDictionary>>at:ifAbsent:
+	Receiver: a MethodDictionary()
+	Arguments and temporary variables: 
+		key: 	#grow
+		aBlock: 	[ self errorKeyNotFound: key ]
+		index: 	6
+	Receiver's instance variables: 
+		tally: 	0
+		array: 	#(nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil ni...etc...
+
+
+MethodDictionary(Dictionary)>>at:
+	Receiver: a MethodDictionary()
+	Arguments and temporary variables: 
+		key: 	#grow
+	Receiver's instance variables: 
+		tally: 	0
+		array: 	#(nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil ni...etc...
+
+
+PileGrossissante class(Behavior)>>compiledMethodAt:
+	Receiver: PileGrossissante
+	Arguments and temporary variables: 
+		selector: 	#grow
+	Receiver's instance variables: 
+		superclass: 	Pile
+		methodDict: 	a MethodDictionary()
+		format: 	65539
+		layout: 	a FixedLayout
+		instanceVariables: 	nil
+		organization: 	a ClassOrganization
+		subclasses: 	nil
+		name: 	#PileGrossissante
+		classPool: 	a Dictionary()
+		sharedPools: 	an OrderedCollection()
+		environment: 	a SystemDictionary(lots of globals)
+		category: 	#MetaProg
+		traitComposition: 	{}
+		localSelectors: 	nil
+
+
+IDM>>idmPile
+	Receiver: une Pile, de taille: 5 contenant: 0 objets : (nil nil nil nil nil )
+	Arguments and temporary variables: 
+<<error during printing>
+	Receiver's instance variables: 
+		contenu: 	#(nil nil nil nil nil)
+		index: 	0
+		capacite: 	5
+
+
+UndefinedObject>>DoIt
+	Receiver: nil
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+nil
+
+OpalCompiler>>evaluate
+	Receiver: an OpalCompiler
+	Arguments and temporary variables: 
+		value: 	nil
+		selectedSource: 	'i:=IDM new.
+i idmPile.'
+		itsSelection: 	a Text for 'i:=IDM new.
+i idmPile.'
+		itsSelectionString: 	'i:=IDM new.
+i idmPile.'
+	Receiver's instance variables: 
+		ast: 	DoIt
+	i := IDM new.
+	^ i idmPile
+		source: 	a ReadStream
+		context: 	nil
+		receiver: 	nil
+		compilationContext: 	a CompilationContext
+		compilationContextClass: 	nil
+
+
+RubSmalltalkEditor>>evaluate:andDo:
+	Receiver: a RubSmalltalkEditor
+	Arguments and temporary variables: 
+		aStream: 	a ReadStream
+		aBlock: 	[ :result | aBlock value: result ]
+		result: 	nil
+		rcvr: 	nil
+		ctxt: 	nil
+	Receiver's instance variables: 
+		defaultKeymappingIndex: 	an IdentityDictionary(#command->#(#noop: #cursorHome: #...etc...
+		textArea: 	a RubEditingArea(512386816)
+		selectorChooser: 	nil
+		notificationStrategy: 	a GLMPopperNotificationStrategy
+
+
+RubSmalltalkEditor>>highlightEvaluateAndDo:
+	Receiver: a RubSmalltalkEditor
+	Arguments and temporary variables: 
+		aBlock: 	[ :result | text selection: result ]
+	Receiver's instance variables: 
+		defaultKeymappingIndex: 	an IdentityDictionary(#command->#(#noop: #cursorHome: #...etc...
+		textArea: 	a RubEditingArea(512386816)
+		selectorChooser: 	nil
+		notificationStrategy: 	a GLMPopperNotificationStrategy
+
+
+[ textMorph textArea editor highlightEvaluateAndDo: ann action.
+textMorph shoutStyler style: textMorph text ] in [ textMorph textArea
+	handleEdit: [ textMorph textArea editor highlightEvaluateAndDo: ann action.
+		textMorph shoutStyler style: textMorph text ] ] in GLMMorphicPharoScriptRenderer(GLMMorphicPharoCodeRenderer)>>actOnHighlightAndEvaluate:
+	Receiver: a GLMMorphicPharoScriptRenderer
+	Arguments and temporary variables: 
+		ann: 	a GLMHighlightAndEvaluate
+	Receiver's instance variables: 
+		renderer: 	a GLMMorphicRenderer
+		textMorph: 	a RubScrolledTextMorph(115479552)
+		textModel: 	a GLMRubricSmalltalkTextModel
+
+
+RubEditingArea(RubAbstractTextArea)>>handleEdit:
+	Receiver: a RubEditingArea(512386816)
+	Arguments and temporary variables: 
+		editBlock: 	[ textMorph textArea editor highlightEvaluateAndDo: ann action.
+text...etc...
+	Receiver's instance variables: 
+		bounds: 	(0@0) corner: (285@50)
+		owner: 	a TransformWithLayoutMorph(279821568)
+		submorphs: 	an Array(a RubPrimarySelectionMorph(822435328) a RubCursor(253863680...etc...
+		fullBounds: 	nil
+		color: 	Color transparent
+		extension: 	a MorphExtension (908720640) [other:  (announcer -> an Announcer) (k...etc...
+		model: 	a GLMRubricSmalltalkTextModel
+		paragraph: 	a RubShoutStylerDecorator
+		editor: 	a RubSmalltalkEditor
+		scrollPane: 	a RubTextScrollPane(1048066048)
+		editingState: 	a RubEditingState
+		textStyle: 	a TextStyle Source Code Pro
+		textColor: 	Color white
+		margins: 	(6@6) corner: (6@6)
+		readOnly: 	false
+		menuAllowed: 	nil
+		editingMode: 	a RubSmalltalkScriptingMode
+		cursor: 	a RubCursor(253863680)
+		segments: 	an OrderedCollection(a RubHighlightSegmentMorph(490833408))
+		getMenuPolicy: 	nil
+		mouseDownPoint: 	(112@66)
+		wrapped: 	true
+		editorClass: 	RubSmalltalkEditor
+
+
+[ textMorph textArea
+	handleEdit: [ textMorph textArea editor highlightEvaluateAndDo: ann action.
+		textMorph shoutStyler style: textMorph text ] ] in GLMMorphicPharoScriptRenderer(GLMMorphicPharoCodeRenderer)>>actOnHighlightAndEvaluate:
+	Receiver: a GLMMorphicPharoScriptRenderer
+	Arguments and temporary variables: 
+		ann: 	a GLMHighlightAndEvaluate
+	Receiver's instance variables: 
+		renderer: 	a GLMMorphicRenderer
+		textMorph: 	a RubScrolledTextMorph(115479552)
+		textModel: 	a GLMRubricSmalltalkTextModel
+
+
+WorldState>>runStepMethodsIn:
+	Receiver: a WorldState
+	Arguments and temporary variables: 
+		aWorld: 	a WorldMorph(562956288) [world]
+		queue: 	WaitfreeQueue with 0 items
+		nextInQueue: 	[ textMorph textArea
+	handleEdit: [ textMorph textArea editor high...etc...
+	Receiver's instance variables: 
+		hands: 	an Array(a HandMorph(58125568))
+		viewBox: 	(0@0) corner: (1920@1031)
+		canvas: 	a FormCanvas on: DisplayScreen(1920x1031x32)
+		damageRecorder: 	a DamageRecorder
+		stepList: 	a Heap(StepMessage(#stepAt: -> a SearchMorph(565787136))(a SearchMorp...etc...
+		lastStepTime: 	4728356
+		lastStepMessage: 	nil
+		lastCycleTime: 	4728379
+		alarms: 	a Heap(MorphicAlarm(#hideShow -> a RubCursor(253863680)))
+		lastAlarmTime: 	4728356
+		menuBuilder: 	a PragmaMenuBuilder ( nil ) 
+		activeHand: 	a HandMorph(58125568)
+
+
+WorldMorph>>runStepMethods
+	Receiver: a WorldMorph(562956288) [world]
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		bounds: 	(0@0) corner: (1920@1031)
+		owner: 	nil
+		submorphs: 	an Array(a TaskbarMorph(804941056) a GLMSystemWindow(33238016) a Nau...etc...
+		fullBounds: 	(0@0) corner: (1920@1031)
+		color: 	(Color r: 0.295 g: 0.295 b: 0.295 alpha: 1.0)
+		extension: 	a MorphExtension (876095488) [other:  (dragEnabled -> true) (dropEna...etc...
+		borderWidth: 	0
+		borderColor: 	(Color r: 0.861 g: 1.0 b: 0.722 alpha: 1.0)
+		backgroundMorph: 	nil
+		worldState: 	a WorldState
+		griddingOn: 	nil
+		osWindow: 	nil
+		session: 	nil
+
+
+WorldState>>doOneCycleNowFor:
+	Receiver: a WorldState
+	Arguments and temporary variables: 
+		aWorld: 	a WorldMorph(562956288) [world]
+	Receiver's instance variables: 
+		hands: 	an Array(a HandMorph(58125568))
+		viewBox: 	(0@0) corner: (1920@1031)
+		canvas: 	a FormCanvas on: DisplayScreen(1920x1031x32)
+		damageRecorder: 	a DamageRecorder
+		stepList: 	a Heap(StepMessage(#stepAt: -> a SearchMorph(565787136))(a SearchMorp...etc...
+		lastStepTime: 	4728356
+		lastStepMessage: 	nil
+		lastCycleTime: 	4728379
+		alarms: 	a Heap(MorphicAlarm(#hideShow -> a RubCursor(253863680)))
+		lastAlarmTime: 	4728356
+		menuBuilder: 	a PragmaMenuBuilder ( nil ) 
+		activeHand: 	a HandMorph(58125568)
+
+
+WorldState>>doOneCycleFor:
+	Receiver: a WorldState
+	Arguments and temporary variables: 
+		aWorld: 	a WorldMorph(562956288) [world]
+	Receiver's instance variables: 
+		hands: 	an Array(a HandMorph(58125568))
+		viewBox: 	(0@0) corner: (1920@1031)
+		canvas: 	a FormCanvas on: DisplayScreen(1920x1031x32)
+		damageRecorder: 	a DamageRecorder
+		stepList: 	a Heap(StepMessage(#stepAt: -> a SearchMorph(565787136))(a SearchMorp...etc...
+		lastStepTime: 	4728356
+		lastStepMessage: 	nil
+		lastCycleTime: 	4728379
+		alarms: 	a Heap(MorphicAlarm(#hideShow -> a RubCursor(253863680)))
+		lastAlarmTime: 	4728356
+		menuBuilder: 	a PragmaMenuBuilder ( nil ) 
+		activeHand: 	a HandMorph(58125568)
+
+
+WorldMorph>>doOneCycle
+	Receiver: a WorldMorph(562956288) [world]
+	Arguments and temporary variables: 
+THERE_BE_DRAGONS_HERE
+KeyNotFound: key #grow not found in MethodDictionary
+5 October 2018 11:10:24.487742 am
+
+VM: unix - x86_64 - linux-gnu - CoInterpreter VMMaker.oscog-eem.2380 uuid: c76d37e1-445c-4e34-9796-fc836dfd50c9 May  9 2018
+StackToRegisterMappingCogit VMMaker.oscog-eem.2380 uuid: c76d37e1-445c-4e34-9796-fc836dfd50c9 May  9 2018
+VM: 201805090836 https://github.com/OpenSmalltalk/opensmalltalk-vm.git Date: Wed May 9 10:36:12 2018 CommitHash: 334be97 Plugins: 201805090836 https://github.com/OpenSmalltalk/opensmalltalk-vm.git
+
+Image: Pharo6.0 [Latest update: #60543]
+
+MethodDictionary(Dictionary)>>errorKeyNotFound:
+	Receiver: a MethodDictionary()
+	Arguments and temporary variables: 
+		aKey: 	#grow
+	Receiver's instance variables: 
+		tally: 	0
+		array: 	#(nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil ni...etc...
+
+
+[ self errorKeyNotFound: key ] in MethodDictionary(Dictionary)>>at:
+	Receiver: a MethodDictionary()
+	Arguments and temporary variables: 
+		key: 	#grow
+	Receiver's instance variables: 
+		tally: 	0
+		array: 	#(nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil ni...etc...
+
+
+MethodDictionary>>at:ifAbsent:
+	Receiver: a MethodDictionary()
+	Arguments and temporary variables: 
+		key: 	#grow
+		aBlock: 	[ self errorKeyNotFound: key ]
+		index: 	6
+	Receiver's instance variables: 
+		tally: 	0
+		array: 	#(nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil ni...etc...
+
+
+MethodDictionary(Dictionary)>>at:
+	Receiver: a MethodDictionary()
+	Arguments and temporary variables: 
+		key: 	#grow
+	Receiver's instance variables: 
+		tally: 	0
+		array: 	#(nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil ni...etc...
+
+
+PileGrossissante class(Behavior)>>compiledMethodAt:
+	Receiver: PileGrossissante
+	Arguments and temporary variables: 
+		selector: 	#grow
+	Receiver's instance variables: 
+		superclass: 	Pile
+		methodDict: 	a MethodDictionary()
+		format: 	65539
+		layout: 	a FixedLayout
+		instanceVariables: 	nil
+		organization: 	a ClassOrganization
+		subclasses: 	nil
+		name: 	#PileGrossissante
+		classPool: 	a Dictionary()
+		sharedPools: 	an OrderedCollection()
+		environment: 	a SystemDictionary(lots of globals)
+		category: 	#MetaProg
+		traitComposition: 	{}
+		localSelectors: 	nil
+
+
+IDM>>idmPile
+	Receiver: une Pile, de taille: 5 contenant: 0 objets : (nil nil nil nil nil )
+	Arguments and temporary variables: 
+<<error during printing>
+	Receiver's instance variables: 
+		contenu: 	#(nil nil nil nil nil)
+		index: 	0
+		capacite: 	5
+
+
+UndefinedObject>>DoIt
+	Receiver: nil
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+nil
+
+OpalCompiler>>evaluate
+	Receiver: an OpalCompiler
+	Arguments and temporary variables: 
+		value: 	nil
+		selectedSource: 	'i:=IDM new.
+i idmPile.'
+		itsSelection: 	a Text for 'i:=IDM new.
+i idmPile.'
+		itsSelectionString: 	'i:=IDM new.
+i idmPile.'
+	Receiver's instance variables: 
+		ast: 	DoIt
+	i := IDM new.
+	^ i idmPile
+		source: 	a ReadStream
+		context: 	nil
+		receiver: 	nil
+		compilationContext: 	a CompilationContext
+		compilationContextClass: 	nil
+
+
+RubSmalltalkEditor>>evaluate:andDo:
+	Receiver: a RubSmalltalkEditor
+	Arguments and temporary variables: 
+		aStream: 	a ReadStream
+		aBlock: 	[ :result | aBlock value: result ]
+		result: 	nil
+		rcvr: 	nil
+		ctxt: 	nil
+	Receiver's instance variables: 
+		defaultKeymappingIndex: 	an IdentityDictionary(#command->#(#noop: #cursorHome: #...etc...
+		textArea: 	a RubEditingArea(512386816)
+		selectorChooser: 	nil
+		notificationStrategy: 	a GLMPopperNotificationStrategy
+
+
+RubSmalltalkEditor>>highlightEvaluateAndDo:
+	Receiver: a RubSmalltalkEditor
+	Arguments and temporary variables: 
+		aBlock: 	[ :result | text selection: result ]
+	Receiver's instance variables: 
+		defaultKeymappingIndex: 	an IdentityDictionary(#command->#(#noop: #cursorHome: #...etc...
+		textArea: 	a RubEditingArea(512386816)
+		selectorChooser: 	nil
+		notificationStrategy: 	a GLMPopperNotificationStrategy
+
+
+[ textMorph textArea editor highlightEvaluateAndDo: ann action.
+textMorph shoutStyler style: textMorph text ] in [ textMorph textArea
+	handleEdit: [ textMorph textArea editor highlightEvaluateAndDo: ann action.
+		textMorph shoutStyler style: textMorph text ] ] in GLMMorphicPharoScriptRenderer(GLMMorphicPharoCodeRenderer)>>actOnHighlightAndEvaluate:
+	Receiver: a GLMMorphicPharoScriptRenderer
+	Arguments and temporary variables: 
+		ann: 	a GLMHighlightAndEvaluate
+	Receiver's instance variables: 
+		renderer: 	a GLMMorphicRenderer
+		textMorph: 	a RubScrolledTextMorph(115479552)
+		textModel: 	a GLMRubricSmalltalkTextModel
+
+
+RubEditingArea(RubAbstractTextArea)>>handleEdit:
+	Receiver: a RubEditingArea(512386816)
+	Arguments and temporary variables: 
+		editBlock: 	[ textMorph textArea editor highlightEvaluateAndDo: ann action.
+text...etc...
+	Receiver's instance variables: 
+		bounds: 	(0@0) corner: (285@50)
+		owner: 	a TransformWithLayoutMorph(279821568)
+		submorphs: 	an Array(a RubPrimarySelectionMorph(822435328) a RubCursor(253863680...etc...
+		fullBounds: 	nil
+		color: 	Color transparent
+		extension: 	a MorphExtension (908720640) [other:  (announcer -> an Announcer) (k...etc...
+		model: 	a GLMRubricSmalltalkTextModel
+		paragraph: 	a RubShoutStylerDecorator
+		editor: 	a RubSmalltalkEditor
+		scrollPane: 	a RubTextScrollPane(1048066048)
+		editingState: 	a RubEditingState
+		textStyle: 	a TextStyle Source Code Pro
+		textColor: 	Color white
+		margins: 	(6@6) corner: (6@6)
+		readOnly: 	false
+		menuAllowed: 	nil
+		editingMode: 	a RubSmalltalkScriptingMode
+		cursor: 	a RubCursor(253863680)
+		segments: 	an OrderedCollection(a RubHighlightSegmentMorph(697027584))
+		getMenuPolicy: 	nil
+		mouseDownPoint: 	(112@66)
+		wrapped: 	true
+		editorClass: 	RubSmalltalkEditor
+
+
+[ textMorph textArea
+	handleEdit: [ textMorph textArea editor highlightEvaluateAndDo: ann action.
+		textMorph shoutStyler style: textMorph text ] ] in GLMMorphicPharoScriptRenderer(GLMMorphicPharoCodeRenderer)>>actOnHighlightAndEvaluate:
+	Receiver: a GLMMorphicPharoScriptRenderer
+	Arguments and temporary variables: 
+		ann: 	a GLMHighlightAndEvaluate
+	Receiver's instance variables: 
+		renderer: 	a GLMMorphicRenderer
+		textMorph: 	a RubScrolledTextMorph(115479552)
+		textModel: 	a GLMRubricSmalltalkTextModel
+
+
+WorldState>>runStepMethodsIn:
+	Receiver: a WorldState
+	Arguments and temporary variables: 
+		aWorld: 	a WorldMorph(562956288) [world]
+		queue: 	WaitfreeQueue with 2 items
+		nextInQueue: 	[ textMorph textArea
+	handleEdit: [ textMorph textArea editor high...etc...
+	Receiver's instance variables: 
+		hands: 	an Array(a HandMorph(58125568))
+		viewBox: 	(0@0) corner: (1920@1031)
+		canvas: 	a FormCanvas on: DisplayScreen(1920x1031x32)
+		damageRecorder: 	a DamageRecorder
+		stepList: 	a Heap(StepMessage(#stepAt: -> a DropListMorph(788922624))(a DropList...etc...
+		lastStepTime: 	4753298
+		lastStepMessage: 	nil
+		lastCycleTime: 	4753319
+		alarms: 	a Heap(MorphicAlarm(#hideShow -> a RubCursor(253863680)))
+		lastAlarmTime: 	4753298
+		menuBuilder: 	a PragmaMenuBuilder ( nil ) 
+		activeHand: 	a HandMorph(58125568)
+
+
+WorldMorph>>runStepMethods
+	Receiver: a WorldMorph(562956288) [world]
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		bounds: 	(0@0) corner: (1920@1031)
+		owner: 	nil
+		submorphs: 	an Array(a TaskbarMorph(804941056) a GLMSystemWindow(33238016) a Nau...etc...
+		fullBounds: 	(0@0) corner: (1920@1031)
+		color: 	(Color r: 0.295 g: 0.295 b: 0.295 alpha: 1.0)
+		extension: 	a MorphExtension (876095488) [other:  (dragEnabled -> true) (dropEna...etc...
+		borderWidth: 	0
+		borderColor: 	(Color r: 0.861 g: 1.0 b: 0.722 alpha: 1.0)
+		backgroundMorph: 	nil
+		worldState: 	a WorldState
+		griddingOn: 	nil
+		osWindow: 	nil
+		session: 	nil
+
+
+WorldState>>doOneCycleNowFor:
+	Receiver: a WorldState
+	Arguments and temporary variables: 
+		aWorld: 	a WorldMorph(562956288) [world]
+	Receiver's instance variables: 
+		hands: 	an Array(a HandMorph(58125568))
+		viewBox: 	(0@0) corner: (1920@1031)
+		canvas: 	a FormCanvas on: DisplayScreen(1920x1031x32)
+		damageRecorder: 	a DamageRecorder
+		stepList: 	a Heap(StepMessage(#stepAt: -> a DropListMorph(788922624))(a DropList...etc...
+		lastStepTime: 	4753298
+		lastStepMessage: 	nil
+		lastCycleTime: 	4753319
+		alarms: 	a Heap(MorphicAlarm(#hideShow -> a RubCursor(253863680)))
+		lastAlarmTime: 	4753298
+		menuBuilder: 	a PragmaMenuBuilder ( nil ) 
+		activeHand: 	a HandMorph(58125568)
+
+
+WorldState>>doOneCycleFor:
+	Receiver: a WorldState
+	Arguments and temporary variables: 
+		aWorld: 	a WorldMorph(562956288) [world]
+	Receiver's instance variables: 
+		hands: 	an Array(a HandMorph(58125568))
+		viewBox: 	(0@0) corner: (1920@1031)
+		canvas: 	a FormCanvas on: DisplayScreen(1920x1031x32)
+		damageRecorder: 	a DamageRecorder
+		stepList: 	a Heap(StepMessage(#stepAt: -> a DropListMorph(788922624))(a DropList...etc...
+		lastStepTime: 	4753298
+		lastStepMessage: 	nil
+		lastCycleTime: 	4753319
+		alarms: 	a Heap(MorphicAlarm(#hideShow -> a RubCursor(253863680)))
+		lastAlarmTime: 	4753298
+		menuBuilder: 	a PragmaMenuBuilder ( nil ) 
+		activeHand: 	a HandMorph(58125568)
+
+
+WorldMorph>>doOneCycle
+	Receiver: a WorldMorph(562956288) [world]
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		bounds: 	(0@0) corner: (1920@1031)
+		owner: 	nil
+		submorphs: 	an Array(a TaskbarMorph(804941056) a GLMSystemWindow(33238016) a Nau...etc...
+		fullBounds: 	(0@0) corner: (1920@1031)
+		color: 	(Color r: 0.295 g: 0.295 b: 0.295 alpha: 1.0)
+		extension: 	a MorphExtension (876095488) [other:  (dragEnabled -> true) (dropEna...etc...
+		borderWidth: 	0
+		borderColor: 	(Color r: 0.861 g: 1.0 b: 0.722 alpha: 1.0)
+		backgroundMorph: 	nil
+		worldState: 	a WorldState
+		griddingOn: 	nil
+		osWindow: 	nil
+		session: 	nil
+
+
+WorldMorph class>>doOneCycle
+	Receiver: WorldMorph
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		superclass: 	PasteUpMorph
+		methodDict: 	a MethodDictionary(#acceptDroppingMorph:event:->WorldMorph>>#accept...etc...
+		format: 	65549
+		layout: 	a FixedLayout
+		instanceVariables: 	nil
+		organization: 	a ClassOrganization
+		subclasses: 	{AthensWorldMorph. OSWindowWorldMorph}
+		name: 	#WorldMorph
+		classPool: 	a Dictionary(#ExtraWorldList->#() )
+		sharedPools: 	an OrderedCollection()
+		environment: 	a SystemDictionary(lots of globals)
+		category: 	#'Morphic-Core-Worlds'
+		traitComposition: 	{}
+		localSelectors: 	nil
+		announcer: 	nil
+
+
+[ [ WorldMorph doOneCycle.
+Processor yield.
+false ] whileFalse: [  ] ] in MorphicUIManager>>spawnNewProcess
+	Receiver: a MorphicUIManager
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		interactiveParser: 	nil
+		activeTranscript: 	nil
+
+
+[ self value.
+Processor terminateActive ] in BlockClosure>>newProcess
+	Receiver: [ [ WorldMorph doOneCycle.
+Processor yield.
+false ] whileFalse: [  ] ]
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		outerContext: 	MorphicUIManager>>spawnNewProcess
+		startpc: 	125
+		numArgs: 	0
+
+
+
+--- The full stack ---
+MethodDictionary(Dictionary)>>errorKeyNotFound:
+[ self errorKeyNotFound: key ] in MethodDictionary(Dictionary)>>at:
+MethodDictionary>>at:ifAbsent:
+MethodDictionary(Dictionary)>>at:
+PileGrossissante class(Behavior)>>compiledMethodAt:
+IDM>>idmPile
+UndefinedObject>>DoIt
+OpalCompiler>>evaluate
+RubSmalltalkEditor>>evaluate:andDo:
+RubSmalltalkEditor>>highlightEvaluateAndDo:
+[ textMorph textArea editor highlightEvaluateAndDo: ann action.
+textMorph shoutStyler style: textMorph text ] in [ textMorph textArea
+	handleEdit: [ textMorph textArea editor highlightEvaluateAndDo: ann action.
+		textMorph shoutStyler style: textMorph text ] ] in GLMMorphicPharoScriptRenderer(GLMMorphicPharoCodeRenderer)>>actOnHighlightAndEvaluate:
+RubEditingArea(RubAbstractTextArea)>>handleEdit:
+[ textMorph textArea
+	handleEdit: [ textMorph textArea editor highlightEvaluateAndDo: ann action.
+		textMorph shoutStyler style: textMorph text ] ] in GLMMorphicPharoScriptRenderer(GLMMorphicPharoCodeRenderer)>>actOnHighlightAndEvaluate:
+WorldState>>runStepMethodsIn:
+WorldMorph>>runStepMethods
+WorldState>>doOneCycleNowFor:
+WorldState>>doOneCycleFor:
+WorldMorph>>doOneCycle
+WorldMorph class>>doOneCycle
+[ [ WorldMorph doOneCycle.
+Processor yield.
+false ] whileFalse: [  ] ] in MorphicUIManager>>spawnNewProcess
+[ self value.
+Processor terminateActive ] in BlockClosure>>newProcess
+-------------------------------------------------------------------------------
+
+THERE_BE_DRAGONS_HERE
+OCAbortCompilation
+5 October 2018 11:12:13.589388 am
+
+VM: unix - x86_64 - linux-gnu - CoInterpreter VMMaker.oscog-eem.2380 uuid: c76d37e1-445c-4e34-9796-fc836dfd50c9 May  9 2018
+StackToRegisterMappingCogit VMMaker.oscog-eem.2380 uuid: c76d37e1-445c-4e34-9796-fc836dfd50c9 May  9 2018
+VM: 201805090836 https://github.com/OpenSmalltalk/opensmalltalk-vm.git Date: Wed May 9 10:36:12 2018 CommitHash: 334be97 Plugins: 201805090836 https://github.com/OpenSmalltalk/opensmalltalk-vm.git
+
+Image: Pharo6.0 [Latest update: #60543]
+
+SyntaxErrorNotification class>>inClass:withCode:doitFlag:errorMessage:location:
+	Receiver: SyntaxErrorNotification
+	Arguments and temporary variables: 
+		aClass: 	Object		codeString: 	'push:o self isFull ifTrue:[self grow]. ̂super push: o'		doitFlag: 	false		errorString: 	'Unknown character'		location: 	43		sourceCode: 	nil
+	Receiver's instance variables: 
+		superclass: 	Notification
+		methodDict: 	a MethodDictionary(#defaultAction->SyntaxErrorNotification>>#defaul...etc...
+		format: 	65546
+		layout: 	a FixedLayout
+		instanceVariables: 	nil
+		organization: 	a ClassOrganization
+		subclasses: 	nil
+		name: 	#SyntaxErrorNotification
+		classPool: 	a Dictionary()
+		sharedPools: 	an OrderedCollection()
+		environment: 	a SystemDictionary(lots of globals)
+		category: 	#'OpalCompiler-Core-Exception'
+		traitComposition: 	{}
+		localSelectors: 	nil
+
+
+RBParser>>parserError:
+	Receiver: a RBParser
+	Arguments and temporary variables: 
+		aString: 	'Variable or expression expected'
+		errorNode: 	nil
+		errorMessage: 	'Unknown character'
+		errorPosition: 	43
+		newSource: 	nil
+	Receiver's instance variables: 
+		scanner: 	a RBScanner
+		currentToken: 	 RBErrorToken('̂')
+		nextToken: 	nil
+		errorBlock: 	nil
+		source: 	'push:o self isFull ifTrue:[self grow]. ̂super push: o'
+		comments: 	an OrderedCollection()
+		pragmas: 	nil
+
+
+RBParser>>parsePrimitiveObject
+	Receiver: a RBParser
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		scanner: 	a RBScanner
+		currentToken: 	 RBErrorToken('̂')
+		nextToken: 	nil
+		errorBlock: 	nil
+		source: 	'push:o self isFull ifTrue:[self grow]. ̂super push: o'
+		comments: 	an OrderedCollection()
+		pragmas: 	nil
+
+
+RBParser>>parseUnaryMessage
+	Receiver: a RBParser
+	Arguments and temporary variables: 
+		node: 	nil
+	Receiver's instance variables: 
+		scanner: 	a RBScanner
+		currentToken: 	 RBErrorToken('̂')
+		nextToken: 	nil
+		errorBlock: 	nil
+		source: 	'push:o self isFull ifTrue:[self grow]. ̂super push: o'
+		comments: 	an OrderedCollection()
+		pragmas: 	nil
+
+
+RBParser>>parseBinaryMessage
+	Receiver: a RBParser
+	Arguments and temporary variables: 
+		node: 	nil
+	Receiver's instance variables: 
+		scanner: 	a RBScanner
+		currentToken: 	 RBErrorToken('̂')
+		nextToken: 	nil
+		errorBlock: 	nil
+		source: 	'push:o self isFull ifTrue:[self grow]. ̂super push: o'
+		comments: 	an OrderedCollection()
+		pragmas: 	nil
+
+
+RBParser>>parseKeywordMessage
+	Receiver: a RBParser
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		scanner: 	a RBScanner
+		currentToken: 	 RBErrorToken('̂')
+		nextToken: 	nil
+		errorBlock: 	nil
+		source: 	'push:o self isFull ifTrue:[self grow]. ̂super push: o'
+		comments: 	an OrderedCollection()
+		pragmas: 	nil
+
+
+RBParser>>parseCascadeMessage
+	Receiver: a RBParser
+	Arguments and temporary variables: 
+		node: 	nil
+		receiver: 	nil
+		messages: 	nil
+		semicolons: 	nil
+	Receiver's instance variables: 
+		scanner: 	a RBScanner
+		currentToken: 	 RBErrorToken('̂')
+		nextToken: 	nil
+		errorBlock: 	nil
+		source: 	'push:o self isFull ifTrue:[self grow]. ̂super push: o'
+		comments: 	an OrderedCollection()
+		pragmas: 	nil
+
+
+RBParser>>parseAssignment
+	Receiver: a RBParser
+	Arguments and temporary variables: 
+		node: 	nil
+		position: 	nil
+	Receiver's instance variables: 
+		scanner: 	a RBScanner
+		currentToken: 	 RBErrorToken('̂')
+		nextToken: 	nil
+		errorBlock: 	nil
+		source: 	'push:o self isFull ifTrue:[self grow]. ̂super push: o'
+		comments: 	an OrderedCollection()
+		pragmas: 	nil
+
+
+RBParser>>parseStatementList:into:
+	Receiver: a RBParser
+	Arguments and temporary variables: 
+		pragmaBoolean: 	true
+		sequenceNode: 	RBSequenceNode()
+		statements: 	an OrderedCollection(RBMessageNode(self isFull
+	ifTrue: [ self grow...etc...
+		return: 	false
+		periods: 	an OrderedCollection(40)
+		returnPosition: 	nil
+		node: 	RBMessageNode(self isFull
+	ifTrue: [ self grow ])
+	Receiver's instance variables: 
+		scanner: 	a RBScanner
+		currentToken: 	 RBErrorToken('̂')
+		nextToken: 	nil
+		errorBlock: 	nil
+		source: 	'push:o self isFull ifTrue:[self grow]. ̂super push: o'
+		comments: 	an OrderedCollection()
+		pragmas: 	nil
+
+
+RBParser>>parseStatements:into:
+	Receiver: a RBParser
+	Arguments and temporary variables: 
+		pragmaBoolean: 	true
+		aSequenceNode: 	RBSequenceNode()
+		temps: 	#()
+		leftBar: 	nil
+		rightBar: 	nil
+	Receiver's instance variables: 
+		scanner: 	a RBScanner
+		currentToken: 	 RBErrorToken('̂')
+		nextToken: 	nil
+		errorBlock: 	nil
+		source: 	'push:o self isFull ifTrue:[self grow]. ̂super push: o'
+		comments: 	an OrderedCollection()
+		pragmas: 	nil
+
+
+RBParser>>parseMethod
+	Receiver: a RBParser
+	Arguments and temporary variables: 
+<<error during printing>
+	Receiver's instance variables: 
+		scanner: 	a RBScanner
+		currentToken: 	 RBErrorToken('̂')
+		nextToken: 	nil
+		errorBlock: 	nil
+		source: 	'push:o self isFull ifTrue:[self grow]. ̂super push: o'
+		comments: 	an OrderedCollection()
+		pragmas: 	nil
+
+
+RBParser>>parseMethod:
+	Receiver: a RBParser
+	Arguments and temporary variables: 
+		aString: 	'push:o self isFull ifTrue:[self grow]. ̂super push: o'		node: 	nil
+	Receiver's instance variables: 
+		scanner: 	a RBScanner
+		currentToken: 	 RBErrorToken('̂')
+		nextToken: 	nil
+		errorBlock: 	nil
+		source: 	'push:o self isFull ifTrue:[self grow]. ̂super push: o'
+		comments: 	an OrderedCollection()
+		pragmas: 	nil
+
+
+[ parser parseMethod: aString ] in RBParser class>>parseMethod:onError:
+	Receiver: RBParser
+	Arguments and temporary variables: 
+		aString: 	'push:o self isFull ifTrue:[self grow]. ̂super push: o'		aBlock: 	nil		parser: 	a RBParser
+	Receiver's instance variables: 
+		superclass: 	Object
+		methodDict: 	a MethodDictionary(#addCommentsTo:->RBParser>>#addCommentsTo: #addP...etc...
+		format: 	65543
+		layout: 	a FixedLayout
+		instanceVariables: 	nil
+		organization: 	a ClassOrganization
+		subclasses: 	{RBPatternParser}
+		name: 	#RBParser
+		classPool: 	a Dictionary()
+		sharedPools: 	an OrderedCollection()
+		environment: 	a SystemDictionary(lots of globals)
+		category: 	#'AST-Core-Parser'
+		traitComposition: 	{}
+		localSelectors: 	nil
+
+
+BlockClosure>>on:do:
+	Receiver: [ parser parseMethod: aString ]
+	Arguments and temporary variables: 
+THERE_BE_DRAGONS_HERE
+OCAbortCompilation
+5 October 2018 11:12:45.327045 am
+
+VM: unix - x86_64 - linux-gnu - CoInterpreter VMMaker.oscog-eem.2380 uuid: c76d37e1-445c-4e34-9796-fc836dfd50c9 May  9 2018
+StackToRegisterMappingCogit VMMaker.oscog-eem.2380 uuid: c76d37e1-445c-4e34-9796-fc836dfd50c9 May  9 2018
+VM: 201805090836 https://github.com/OpenSmalltalk/opensmalltalk-vm.git Date: Wed May 9 10:36:12 2018 CommitHash: 334be97 Plugins: 201805090836 https://github.com/OpenSmalltalk/opensmalltalk-vm.git
+
+Image: Pharo6.0 [Latest update: #60543]
+
+SyntaxErrorNotification class>>inClass:withCode:doitFlag:errorMessage:location:
+	Receiver: SyntaxErrorNotification
+	Arguments and temporary variables: 
+		aClass: 	Object		codeString: 	'push:o self isFull ifTrue:[self grow]. ̂super push: o'		doitFlag: 	false		errorString: 	'Unknown character'		location: 	43		sourceCode: 	nil
+	Receiver's instance variables: 
+		superclass: 	Notification
+		methodDict: 	a MethodDictionary(#defaultAction->SyntaxErrorNotification>>#defaul...etc...
+		format: 	65546
+		layout: 	a FixedLayout
+		instanceVariables: 	nil
+		organization: 	a ClassOrganization
+		subclasses: 	nil
+		name: 	#SyntaxErrorNotification
+		classPool: 	a Dictionary()
+		sharedPools: 	an OrderedCollection()
+		environment: 	a SystemDictionary(lots of globals)
+		category: 	#'OpalCompiler-Core-Exception'
+		traitComposition: 	{}
+		localSelectors: 	nil
+
+
+RBParser>>parserError:
+	Receiver: a RBParser
+	Arguments and temporary variables: 
+		aString: 	'Variable or expression expected'
+		errorNode: 	nil
+		errorMessage: 	'Unknown character'
+		errorPosition: 	43
+		newSource: 	nil
+	Receiver's instance variables: 
+		scanner: 	a RBScanner
+		currentToken: 	 RBErrorToken('̂')
+		nextToken: 	nil
+		errorBlock: 	nil
+		source: 	'push:o self isFull ifTrue:[self grow]. ̂super push: o'
+		comments: 	an OrderedCollection()
+		pragmas: 	nil
+
+
+RBParser>>parsePrimitiveObject
+	Receiver: a RBParser
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		scanner: 	a RBScanner
+		currentToken: 	 RBErrorToken('̂')
+		nextToken: 	nil
+		errorBlock: 	nil
+		source: 	'push:o self isFull ifTrue:[self grow]. ̂super push: o'
+		comments: 	an OrderedCollection()
+		pragmas: 	nil
+
+
+RBParser>>parseUnaryMessage
+	Receiver: a RBParser
+	Arguments and temporary variables: 
+		node: 	nil
+	Receiver's instance variables: 
+		scanner: 	a RBScanner
+		currentToken: 	 RBErrorToken('̂')
+		nextToken: 	nil
+		errorBlock: 	nil
+		source: 	'push:o self isFull ifTrue:[self grow]. ̂super push: o'
+		comments: 	an OrderedCollection()
+		pragmas: 	nil
+
+
+RBParser>>parseBinaryMessage
+	Receiver: a RBParser
+	Arguments and temporary variables: 
+		node: 	nil
+	Receiver's instance variables: 
+		scanner: 	a RBScanner
+		currentToken: 	 RBErrorToken('̂')
+		nextToken: 	nil
+		errorBlock: 	nil
+		source: 	'push:o self isFull ifTrue:[self grow]. ̂super push: o'
+		comments: 	an OrderedCollection()
+		pragmas: 	nil
+
+
+RBParser>>parseKeywordMessage
+	Receiver: a RBParser
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		scanner: 	a RBScanner
+		currentToken: 	 RBErrorToken('̂')
+		nextToken: 	nil
+		errorBlock: 	nil
+		source: 	'push:o self isFull ifTrue:[self grow]. ̂super push: o'
+		comments: 	an OrderedCollection()
+		pragmas: 	nil
+
+
+RBParser>>parseCascadeMessage
+	Receiver: a RBParser
+	Arguments and temporary variables: 
+		node: 	nil
+		receiver: 	nil
+		messages: 	nil
+		semicolons: 	nil
+	Receiver's instance variables: 
+		scanner: 	a RBScanner
+		currentToken: 	 RBErrorToken('̂')
+		nextToken: 	nil
+		errorBlock: 	nil
+		source: 	'push:o self isFull ifTrue:[self grow]. ̂super push: o'
+		comments: 	an OrderedCollection()
+		pragmas: 	nil
+
+
+RBParser>>parseAssignment
+	Receiver: a RBParser
+	Arguments and temporary variables: 
+		node: 	nil
+		position: 	nil
+	Receiver's instance variables: 
+		scanner: 	a RBScanner
+		currentToken: 	 RBErrorToken('̂')
+		nextToken: 	nil
+		errorBlock: 	nil
+		source: 	'push:o self isFull ifTrue:[self grow]. ̂super push: o'
+		comments: 	an OrderedCollection()
+		pragmas: 	nil
+
+
+RBParser>>parseStatementList:into:
+	Receiver: a RBParser
+	Arguments and temporary variables: 
+		pragmaBoolean: 	true
+		sequenceNode: 	RBSequenceNode()
+		statements: 	an OrderedCollection(RBMessageNode(self isFull
+	ifTrue: [ self grow...etc...
+		return: 	false
+		periods: 	an OrderedCollection(40)
+		returnPosition: 	nil
+		node: 	RBMessageNode(self isFull
+	ifTrue: [ self grow ])
+	Receiver's instance variables: 
+		scanner: 	a RBScanner
+		currentToken: 	 RBErrorToken('̂')
+		nextToken: 	nil
+		errorBlock: 	nil
+		source: 	'push:o self isFull ifTrue:[self grow]. ̂super push: o'
+		comments: 	an OrderedCollection()
+		pragmas: 	nil
+
+
+RBParser>>parseStatements:into:
+	Receiver: a RBParser
+	Arguments and temporary variables: 
+		pragmaBoolean: 	true
+		aSequenceNode: 	RBSequenceNode()
+		temps: 	#()
+		leftBar: 	nil
+		rightBar: 	nil
+	Receiver's instance variables: 
+		scanner: 	a RBScanner
+		currentToken: 	 RBErrorToken('̂')
+		nextToken: 	nil
+		errorBlock: 	nil
+		source: 	'push:o self isFull ifTrue:[self grow]. ̂super push: o'
+		comments: 	an OrderedCollection()
+		pragmas: 	nil
+
+
+RBParser>>parseMethod
+	Receiver: a RBParser
+	Arguments and temporary variables: 
+<<error during printing>
+	Receiver's instance variables: 
+		scanner: 	a RBScanner
+		currentToken: 	 RBErrorToken('̂')
+		nextToken: 	nil
+		errorBlock: 	nil
+		source: 	'push:o self isFull ifTrue:[self grow]. ̂super push: o'
+		comments: 	an OrderedCollection()
+		pragmas: 	nil
+
+
+RBParser>>parseMethod:
+	Receiver: a RBParser
+	Arguments and temporary variables: 
+		aString: 	'push:o self isFull ifTrue:[self grow]. ̂super push: o'		node: 	nil
+	Receiver's instance variables: 
+		scanner: 	a RBScanner
+		currentToken: 	 RBErrorToken('̂')
+		nextToken: 	nil
+		errorBlock: 	nil
+		source: 	'push:o self isFull ifTrue:[self grow]. ̂super push: o'
+		comments: 	an OrderedCollection()
+		pragmas: 	nil
+
+
+[ parser parseMethod: aString ] in RBParser class>>parseMethod:onError:
+	Receiver: RBParser
+	Arguments and temporary variables: 
+		aString: 	'push:o self isFull ifTrue:[self grow]. ̂super push: o'		aBlock: 	nil		parser: 	a RBParser
+	Receiver's instance variables: 
+		superclass: 	Object
+		methodDict: 	a MethodDictionary(#addCommentsTo:->RBParser>>#addCommentsTo: #addP...etc...
+		format: 	65543
+		layout: 	a FixedLayout
+		instanceVariables: 	nil
+		organization: 	a ClassOrganization
+		subclasses: 	{RBPatternParser}
+		name: 	#RBParser
+		classPool: 	a Dictionary()
+		sharedPools: 	an OrderedCollection()
+		environment: 	a SystemDictionary(lots of globals)
+		category: 	#'AST-Core-Parser'
+		traitComposition: 	{}
+		localSelectors: 	nil
+
+
+BlockClosure>>on:do:
+	Receiver: [ parser parseMethod: aString ]
+	Arguments and temporary variables: 
+		exception: 	ReparseAfterSourceEditing
+		handlerAction: 	[ :exception | self parseMethod: exception newSource onError: aB...etc...
+	Receiver's instance variables: 
+		outerContext: 	RBParser class>>parseMethod:onError:
+		startpc: 	98
+		numArgs: 	0
+
+
+RBParser class>>parseMethod:onError:
+	Receiver: RBParser
+	Arguments and temporary variables: 
+		aString: 	'push:o self isFull ifTrue:[self grow]. ̂super push: o'		aBlock: 	nil		parser: 	a RBParser
+	Receiver's instance variables: 
+		superclass: 	Object
+		methodDict: 	a MethodDictionary(#addCommentsTo:->RBParser>>#addCommentsTo: #addP...etc...
+		format: 	65543
+		layout: 	a FixedLayout
+		instanceVariables: 	nil
+		organization: 	a ClassOrganization
+		subclasses: 	{RBPatternParser}
+		name: 	#RBParser
+		classPool: 	a Dictionary()
+		sharedPools: 	an OrderedCollection()
+		environment: 	a SystemDictionary(lots of globals)
+		category: 	#'AST-Core-Parser'
+		traitComposition: 	{}
+		localSelectors: 	nil
+
+
+RBParser class>>parseMethod:
+	Receiver: RBParser
+	Arguments and temporary variables: 
+		aString: 	'push:o self isFull ifTrue:[self grow]. ̂super push: o'
+	Receiver's instance variables: 
+		superclass: 	Object
+		methodDict: 	a MethodDictionary(#addCommentsTo:->RBParser>>#addCommentsTo: #addP...etc...
+		format: 	65543
+		layout: 	a FixedLayout
+		instanceVariables: 	nil
+		organization: 	a ClassOrganization
+		subclasses: 	{RBPatternParser}
+		name: 	#RBParser
+		classPool: 	a Dictionary()
+		sharedPools: 	an OrderedCollection()
+		environment: 	a SystemDictionary(lots of globals)
+		category: 	#'AST-Core-Parser'
+		traitComposition: 	{}
+		localSelectors: 	nil
+
+
+OpalCompiler>>parseMethod
+	Receiver: an OpalCompiler
+	Arguments and temporary variables: 
+		parseClass: 	RBParser
+	Receiver's instance variables: 
+		ast: 	nil
+		source: 	a ReadStream
+		context: 	nil
+		receiver: 	nil
+		compilationContext: 	a CompilationContext
+		compilationContextClass: 	nil
+
+
+OpalCompiler>>parse
+	Receiver: an OpalCompiler
+	Arguments and temporary variables: 
+		expression: 	nil
+		selector: 	nil
+		arguments: 	nil
+		method: 	nil
+	Receiver's instance variables: 
+		ast: 	nil
+		source: 	a ReadStream
+		context: 	nil
+		receiver: 	nil
+		compilationContext: 	a CompilationContext
+		compilationContextClass: 	nil
+
+
+[ ast := self parse.
+self doSemanticAnalysis.
+self callPlugins ] in [ [ ast := self parse.
+self doSemanticAnalysis.
+self callPlugins ]
+	on: OCSourceCodeChanged
+	do: [ :notification | 
+		self source: notification newSourceCode.
+		notification retry ].
+cm := ast generate: self compilationContext compiledMethodTrailer ] in OpalCompiler>>compile
+	Receiver: an OpalCompiler
+	Arguments and temporary variables: 
+		cm: 	nil
+	Receiver's instance variables: 
+		ast: 	nil
+		source: 	a ReadStream
+		context: 	nil
+		receiver: 	nil
+		compilationContext: 	a CompilationContext
+		compilationContextClass: 	nil
+
+
+BlockClosure>>on:do:
+	Receiver: [ ast := self parse.
+self doSemanticAnalysis.
+self callPlugins ]
+	Arguments and temporary variables: 
+		exception: 	OCSourceCodeChanged
+		handlerAction: 	[ :notification | 
+self source: notification newSourceCode.
+noti...etc...
+	Receiver's instance variables: 
+		outerContext: 	[ [ ast := self parse.
+self doSemanticAnalysis.
+self callPlugins ...etc...
+		startpc: 	213
+		numArgs: 	0
+
+
+[ [ ast := self parse.
+self doSemanticAnalysis.
+self callPlugins ]
+	on: OCSourceCodeChanged
+	do: [ :notification | 
+		self source: notification newSourceCode.
+		notification retry ].
+cm := ast generate: self compilationContext compiledMethodTrailer ] in OpalCompiler>>compile
+	Receiver: an OpalCompiler
+	Arguments and temporary variables: 
+		cm: 	nil
+	Receiver's instance variables: 
+		ast: 	nil
+		source: 	a ReadStream
+		context: 	nil
+		receiver: 	nil
+		compilationContext: 	a CompilationContext
+		compilationContextClass: 	nil
+
+
+BlockClosure>>on:do:
+	Receiver: [ [ ast := self parse.
+self doSemanticAnalysis.
+self callPlugins ]
+	on: OCSourceCodeChange...etc...
+	Arguments and temporary variables: 
+		exception: 	SyntaxErrorNotification
+		handlerAction: 	[ :exception | 
+self compilationContext requestor
+	ifNotNil: [ s...etc...
+	Receiver's instance variables: 
+		outerContext: 	OpalCompiler>>compile
+		startpc: 	209
+		numArgs: 	0
+
+
+OpalCompiler>>compile
+	Receiver: an OpalCompiler
+	Arguments and temporary variables: 
+		cm: 	nil
+	Receiver's instance variables: 
+		ast: 	nil
+		source: 	a ReadStream
+		context: 	nil
+		receiver: 	nil
+		compilationContext: 	a CompilationContext
+		compilationContextClass: 	nil
+
+
+IDM>>idmPile
+	Receiver: une Pile, de taille: 5 contenant: 0 objets : (nil nil nil nil nil )
+	Arguments and temporary variables: 
+		b: 	false
+	Receiver's instance variables: 
+		contenu: 	#(nil nil nil nil nil)
+		index: 	0
+		capacite: 	5
+
+
+UndefinedObject>>DoIt
+	Receiver: nil
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+nil
+
+OpalCompiler>>evaluate
+	Receiver: an OpalCompiler
+	Arguments and temporary variables: 
+		value: 	nil
+		selectedSource: 	'i:=IDM new.
+i idmPile.'
+		itsSelection: 	a Text for 'i:=IDM new.
+i idmPile.'
+		itsSelectionString: 	'i:=IDM new.
+i idmPile.'
+	Receiver's instance variables: 
+		ast: 	DoIt
+	i := IDM new.
+	^ i idmPile
+		source: 	a ReadStream
+		context: 	nil
+		receiver: 	nil
+		compilationContext: 	a CompilationContext
+		compilationContextClass: 	nil
+
+
+RubSmalltalkEditor>>evaluate:andDo:
+	Receiver: a RubSmalltalkEditor
+	Arguments and temporary variables: 
+		aStream: 	a ReadStream
+		aBlock: 	[ :result | aBlock value: result ]
+		result: 	nil
+		rcvr: 	nil
+		ctxt: 	nil
+	Receiver's instance variables: 
+		defaultKeymappingIndex: 	an IdentityDictionary(#command->#(#noop: #cursorHome: #...etc...
+		textArea: 	a RubEditingArea(512386816)
+		selectorChooser: 	nil
+		notificationStrategy: 	a GLMPopperNotificationStrategy
+
+
+RubSmalltalkEditor>>highlightEvaluateAndDo:
+	Receiver: a RubSmalltalkEditor
+	Arguments and temporary variables: 
+		aBlock: 	[ :result | text selection: result ]
+	Receiver's instance variables: 
+		defaultKeymappingIndex: 	an IdentityDictionary(#command->#(#noop: #cursorHome: #...etc...
+		textArea: 	a RubEditingArea(512386816)
+		selectorChooser: 	nil
+		notificationStrategy: 	a GLMPopperNotificationStrategy
+
+
+[ textMorph textArea editor highlightEvaluateAndDo: ann action.
+textMorph shoutStyler style: textMorph text ] in [ textMorph textArea
+	handleEdit: [ textMorph textArea editor highlightEvaluateAndDo: ann action.
+		textMorph shoutStyler style: textMorph text ] ] in GLMMorphicPharoScriptRenderer(GLMMorphicPharoCodeRenderer)>>actOnHighlightAndEvaluate:
+	Receiver: a GLMMorphicPharoScriptRenderer
+	Arguments and temporary variables: 
+		ann: 	a GLMHighlightAndEvaluate
+	Receiver's instance variables: 
+		renderer: 	a GLMMorphicRenderer
+		textMorph: 	a RubScrolledTextMorph(115479552)
+		textModel: 	a GLMRubricSmalltalkTextModel
+
+
+RubEditingArea(RubAbstractTextArea)>>handleEdit:
+	Receiver: a RubEditingArea(512386816)
+	Arguments and temporary variables: 
+		editBlock: 	[ textMorph textArea editor highlightEvaluateAndDo: ann action.
+text...etc...
+	Receiver's instance variables: 
+		bounds: 	(0@0) corner: (285@50)
+		owner: 	a TransformWithLayoutMorph(279821568)
+		submorphs: 	an Array(a RubPrimarySelectionMorph(822435328) a RubCursor(253863680...etc...
+		fullBounds: 	(0@0) corner: (285@50)
+		color: 	Color transparent
+		extension: 	a MorphExtension (908720640) [other:  (announcer -> an Announcer) (k...etc...
+		model: 	a GLMRubricSmalltalkTextModel
+		paragraph: 	a RubShoutStylerDecorator
+		editor: 	a RubSmalltalkEditor
+		scrollPane: 	a RubTextScrollPane(1048066048)
+		editingState: 	a RubEditingState
+		textStyle: 	a TextStyle Source Code Pro
+		textColor: 	Color white
+		margins: 	(6@6) corner: (6@6)
+		readOnly: 	false
+		menuAllowed: 	nil
+		editingMode: 	a RubSmalltalkScriptingMode
+		cursor: 	a RubCursor(253863680)
+		segments: 	an OrderedCollection(a RubHighlightSegmentMorph(1064751872))
+		getMenuPolicy: 	nil
+		mouseDownPoint: 	(112@66)
+		wrapped: 	true
+		editorClass: 	RubSmalltalkEditor
+
+
+[ textMorph textArea
+	handleEdit: [ textMorph textArea editor highlightEvaluateAndDo: ann action.
+		textMorph shoutStyler style: textMorph text ] ] in GLMMorphicPharoScriptRenderer(GLMMorphicPharoCodeRenderer)>>actOnHighlightAndEvaluate:
+	Receiver: a GLMMorphicPharoScriptRenderer
+	Arguments and temporary variables: 
+		ann: 	a GLMHighlightAndEvaluate
+	Receiver's instance variables: 
+		renderer: 	a GLMMorphicRenderer
+		textMorph: 	a RubScrolledTextMorph(115479552)
+		textModel: 	a GLMRubricSmalltalkTextModel
+
+
+WorldState>>runStepMethodsIn:
+	Receiver: a WorldState
+	Arguments and temporary variables: 
+		aWorld: 	a WorldMorph(562956288) [world]
+		queue: 	WaitfreeQueue with 0 items
+		nextInQueue: 	[ textMorph textArea
+	handleEdit: [ textMorph textArea editor high...etc...
+	Receiver's instance variables: 
+		hands: 	an Array(a HandMorph(58125568))
+		viewBox: 	(0@0) corner: (1920@1031)
+		canvas: 	a FormCanvas on: DisplayScreen(1920x1031x32)
+		damageRecorder: 	a DamageRecorder
+		stepList: 	a Heap(StepMessage(#stepAt: -> a SearchMorph(462651648))(a SearchMorp...etc...
+		lastStepTime: 	4894201
+		lastStepMessage: 	nil
+		lastCycleTime: 	4894201
+		alarms: 	a Heap()
+		lastAlarmTime: 	4894201
+		menuBuilder: 	a PragmaMenuBuilder ( nil ) 
+		activeHand: 	a HandMorph(58125568)
+
+
+WorldMorph>>runStepMethods
+	Receiver: a WorldMorph(562956288) [world]
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		bounds: 	(0@0) corner: (1920@1031)
+		owner: 	nil
+		submorphs: 	an Array(a TaskbarMorph(804941056) a NautilusWindow(303798272) a GLM...etc...
+		fullBounds: 	(0@0) corner: (1920@1031)
+		color: 	(Color r: 0.295 g: 0.295 b: 0.295 alpha: 1.0)
+		extension: 	a MorphExtension (876095488) [other:  (dragEnabled -> true) (dropEna...etc...
+		borderWidth: 	0
+		borderColor: 	(Color r: 0.861 g: 1.0 b: 0.722 alpha: 1.0)
+		backgroundMorph: 	nil
+		worldState: 	a WorldState
+		griddingOn: 	nil
+		osWindow: 	nil
+		session: 	nil
+
+
+WorldState>>doOneCycleNowFor:
+	Receiver: a WorldState
+	Arguments and temporary variables: 
+		aWorld: 	a WorldMorph(562956288) [world]
+	Receiver's instance variables: 
+		hands: 	an Array(a HandMorph(58125568))
+		viewBox: 	(0@0) corner: (1920@1031)
+		canvas: 	a FormCanvas on: DisplayScreen(1920x1031x32)
+		damageRecorder: 	a DamageRecorder
+		stepList: 	a Heap(StepMessage(#stepAt: -> a SearchMorph(462651648))(a SearchMorp...etc...
+		lastStepTime: 	4894201
+		lastStepMessage: 	nil
+		lastCycleTime: 	4894201
+		alarms: 	a Heap()
+		lastAlarmTime: 	4894201
+		menuBuilder: 	a PragmaMenuBuilder ( nil ) 
+		activeHand: 	a HandMorph(58125568)
+
+
+WorldState>>doOneCycleFor:
+	Receiver: a WorldState
+	Arguments and temporary variables: 
+		aWorld: 	a WorldMorph(562956288) [world]
+	Receiver's instance variables: 
+		hands: 	an Array(a HandMorph(58125568))
+		viewBox: 	(0@0) corner: (1920@1031)
+		canvas: 	a FormCanvas on: DisplayScreen(1920x1031x32)
+		damageRecorder: 	a DamageRecorder
+		stepList: 	a Heap(StepMessage(#stepAt: -> a SearchMorph(462651648))(a SearchMorp...etc...
+		lastStepTime: 	4894201
+		lastStepMessage: 	nil
+		lastCycleTime: 	4894201
+		alarms: 	a Heap()
+		lastAlarmTime: 	4894201
+		menuBuilder: 	a PragmaMenuBuilder ( nil ) 
+		activeHand: 	a HandMorph(58125568)
+
+
+WorldMorph>>doOneCycle
+	Receiver: a WorldMorph(562956288) [world]
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		bounds: 	(0@0) corner: (1920@1031)
+		owner: 	nil
+		submorphs: 	an Array(a TaskbarMorph(804941056) a NautilusWindow(303798272) a GLM...etc...
+		fullBounds: 	(0@0) corner: (1920@1031)
+		color: 	(Color r: 0.295 g: 0.295 b: 0.295 alpha: 1.0)
+		extension: 	a MorphExtension (876095488) [other:  (dragEnabled -> true) (dropEna...etc...
+		borderWidth: 	0
+		borderColor: 	(Color r: 0.861 g: 1.0 b: 0.722 alpha: 1.0)
+		backgroundMorph: 	nil
+		worldState: 	a WorldState
+		griddingOn: 	nil
+		osWindow: 	nil
+		session: 	nil
+
+
+WorldMorph class>>doOneCycle
+	Receiver: WorldMorph
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		superclass: 	PasteUpMorph
+		methodDict: 	a MethodDictionary(#acceptDroppingMorph:event:->WorldMorph>>#accept...etc...
+		format: 	65549
+		layout: 	a FixedLayout
+		instanceVariables: 	nil
+		organization: 	a ClassOrganization
+		subclasses: 	{AthensWorldMorph. OSWindowWorldMorph}
+		name: 	#WorldMorph
+		classPool: 	a Dictionary(#ExtraWorldList->#() )
+		sharedPools: 	an OrderedCollection()
+		environment: 	a SystemDictionary(lots of globals)
+		category: 	#'Morphic-Core-Worlds'
+		traitComposition: 	{}
+		localSelectors: 	nil
+		announcer: 	nil
+
+
+[ [ WorldMorph doOneCycle.
+Processor yield.
+false ] whileFalse: [  ] ] in MorphicUIManager>>spawnNewProcess
+	Receiver: a MorphicUIManager
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		interactiveParser: 	nil
+		activeTranscript: 	nil
+
+
+[ self value.
+Processor terminateActive ] in BlockClosure>>newProcess
+	Receiver: [ [ WorldMorph doOneCycle.
+Processor yield.
+false ] whileFalse: [  ] ]
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		outerContext: 	MorphicUIManager>>spawnNewProcess
+		startpc: 	125
+		numArgs: 	0
+
+
+
+--- The full stack ---
+SyntaxErrorNotification class>>inClass:withCode:doitFlag:errorMessage:location:
+RBParser>>parserError:
+RBParser>>parsePrimitiveObject
+RBParser>>parseUnaryMessage
+RBParser>>parseBinaryMessage
+RBParser>>parseKeywordMessage
+RBParser>>parseCascadeMessage
+RBParser>>parseAssignment
+RBParser>>parseStatementList:into:
+RBParser>>parseStatements:into:
+RBParser>>parseMethod
+RBParser>>parseMethod:
+[ parser parseMethod: aString ] in RBParser class>>parseMethod:onError:
+BlockClosure>>on:do:
+RBParser class>>parseMethod:onError:
+RBParser class>>parseMethod:
+OpalCompiler>>parseMethod
+OpalCompiler>>parse
+[ ast := self parse.
+self doSemanticAnalysis.
+self callPlugins ] in [ [ ast := self parse.
+self doSemanticAnalysis.
+self callPlugins ]
+	on: OCSourceCodeChanged
+	do: [ :notification | 
+		self source: notification newSourceCode.
+		notification retry ].
+cm := ast generate: self compilationContext compiledMethodTrailer ] in OpalCompiler>>compile
+BlockClosure>>on:do:
+[ [ ast := self parse.
+self doSemanticAnalysis.
+self callPlugins ]
+	on: OCSourceCodeChanged
+	do: [ :notification | 
+		self source: notification newSourceCode.
+		notification retry ].
+cm := ast generate: self compilationContext compiledMethodTrailer ] in OpalCompiler>>compile
+BlockClosure>>on:do:
+OpalCompiler>>compile
+IDM>>idmPile
+UndefinedObject>>DoIt
+OpalCompiler>>evaluate
+RubSmalltalkEditor>>evaluate:andDo:
+RubSmalltalkEditor>>highlightEvaluateAndDo:
+[ textMorph textArea editor highlightEvaluateAndDo: ann action.
+textMorph shoutStyler style: textMorph text ] in [ textMorph textArea
+	handleEdit: [ textMorph textArea editor highlightEvaluateAndDo: ann action.
+		textMorph shoutStyler style: textMorph text ] ] in GLMMorphicPharoScriptRenderer(GLMMorphicPharoCodeRenderer)>>actOnHighlightAndEvaluate:
+RubEditingArea(RubAbstractTextArea)>>handleEdit:
+[ textMorph textArea
+	handleEdit: [ textMorph textArea editor highlightEvaluateAndDo: ann action.
+		textMorph shoutStyler style: textMorph text ] ] in GLMMorphicPharoScriptRenderer(GLMMorphicPharoCodeRenderer)>>actOnHighlightAndEvaluate:
+WorldState>>runStepMethodsIn:
+WorldMorph>>runStepMethods
+WorldState>>doOneCycleNowFor:
+WorldState>>doOneCycleFor:
+WorldMorph>>doOneCycle
+WorldMorph class>>doOneCycle
+[ [ WorldMorph doOneCycle.
+Processor yield.
+false ] whileFalse: [  ] ] in MorphicUIManager>>spawnNewProcess
+[ self value.
+Processor terminateActive ] in BlockClosure>>newProcess
+-------------------------------------------------------------------------------
+
+THERE_BE_DRAGONS_HERE
+KeyNotFound: key #grow not found in MethodDictionary
+5 October 2018 11:12:57.222381 am
+
+VM: unix - x86_64 - linux-gnu - CoInterpreter VMMaker.oscog-eem.2380 uuid: c76d37e1-445c-4e34-9796-fc836dfd50c9 May  9 2018
+StackToRegisterMappingCogit VMMaker.oscog-eem.2380 uuid: c76d37e1-445c-4e34-9796-fc836dfd50c9 May  9 2018
+VM: 201805090836 https://github.com/OpenSmalltalk/opensmalltalk-vm.git Date: Wed May 9 10:36:12 2018 CommitHash: 334be97 Plugins: 201805090836 https://github.com/OpenSmalltalk/opensmalltalk-vm.git
+
+Image: Pharo6.0 [Latest update: #60543]
+
+MethodDictionary(Dictionary)>>errorKeyNotFound:
+	Receiver: a MethodDictionary(#capacity->Pile>>#capacity #do:->Pile>>#do: #initialize:->Pile>>#initia...etc...
+	Arguments and temporary variables: 
+		aKey: 	#grow
+	Receiver's instance variables: 
+		tally: 	10
+		array: 	{Pile>>#size. nil. nil. Pile>>#push:. nil. nil. nil. nil. nil. Pile>>#is...etc...
+
+
+[ self errorKeyNotFound: key ] in MethodDictionary(Dictionary)>>at:
+	Receiver: a MethodDictionary(#capacity->Pile>>#capacity #do:->Pile>>#do: #initialize:->Pile>>#initia...etc...
+	Arguments and temporary variables: 
+		key: 	#grow
+	Receiver's instance variables: 
+		tally: 	10
+		array: 	{Pile>>#size. nil. nil. Pile>>#push:. nil. nil. nil. nil. nil. Pile>>#is...etc...
+
+
+MethodDictionary>>at:ifAbsent:
+	Receiver: a MethodDictionary(#capacity->Pile>>#capacity #do:->Pile>>#do: #initialize:->Pile>>#initia...etc...
+	Arguments and temporary variables: 
+		key: 	#grow
+		aBlock: 	[ self errorKeyNotFound: key ]
+		index: 	6
+	Receiver's instance variables: 
+		tally: 	10
+		array: 	{Pile>>#size. nil. nil. Pile>>#push:. nil. nil. nil. nil. nil. Pile>>#is...etc...
+
+
+MethodDictionary(Dictionary)>>at:
+	Receiver: a MethodDictionary(#capacity->Pile>>#capacity #do:->Pile>>#do: #initialize:->Pile>>#initia...etc...
+	Arguments and temporary variables: 
+		key: 	#grow
+	Receiver's instance variables: 
+		tally: 	10
+		array: 	{Pile>>#size. nil. nil. Pile>>#push:. nil. nil. nil. nil. nil. Pile>>#is...etc...
+
+
+Pile class(Behavior)>>compiledMethodAt:
+	Receiver: Pile
+	Arguments and temporary variables: 
+		selector: 	#grow
+	Receiver's instance variables: 
+		superclass: 	Object
+		methodDict: 	a MethodDictionary(#capacity->Pile>>#capacity #do:->Pile>>#do: #ini...etc...
+		format: 	65539
+		layout: 	a FixedLayout
+		instanceVariables: 	nil
+		organization: 	a ClassOrganization
+		subclasses: 	{IDM. PileTypee. PileGrossissante}
+		name: 	#Pile
+		classPool: 	a Dictionary(#tailleDefaut->5 )
+		sharedPools: 	an OrderedCollection()
+		environment: 	a SystemDictionary(lots of globals)
+		category: 	#MetaProg
+		traitComposition: 	{}
+		localSelectors: 	nil
+
+
+IDM>>idmPile
+	Receiver: une Pile, de taille: 5 contenant: 0 objets : (nil nil nil nil nil )
+	Arguments and temporary variables: 
+		b: 	true
+	Receiver's instance variables: 
+		contenu: 	#(nil nil nil nil nil)
+		index: 	0
+		capacite: 	5
+
+
+UndefinedObject>>DoIt
+	Receiver: nil
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+nil
+
+OpalCompiler>>evaluate
+	Receiver: an OpalCompiler
+	Arguments and temporary variables: 
+		value: 	nil
+		selectedSource: 	'i:=IDM new.
+i idmPile.'
+		itsSelection: 	a Text for 'i:=IDM new.
+i idmPile.'
+		itsSelectionString: 	'i:=IDM new.
+i idmPile.'
+	Receiver's instance variables: 
+		ast: 	DoIt
+	i := IDM new.
+	^ i idmPile
+		source: 	a ReadStream
+		context: 	nil
+		receiver: 	nil
+		compilationContext: 	a CompilationContext
+		compilationContextClass: 	nil
+
+
+RubSmalltalkEditor>>evaluate:andDo:
+	Receiver: a RubSmalltalkEditor
+	Arguments and temporary variables: 
+		aStream: 	a ReadStream
+		aBlock: 	[ :result | aBlock value: result ]
+		result: 	nil
+		rcvr: 	nil
+		ctxt: 	nil
+	Receiver's instance variables: 
+		defaultKeymappingIndex: 	an IdentityDictionary(#command->#(#noop: #cursorHome: #...etc...
+		textArea: 	a RubEditingArea(512386816)
+		selectorChooser: 	nil
+		notificationStrategy: 	a GLMPopperNotificationStrategy
+
+
+RubSmalltalkEditor>>highlightEvaluateAndDo:
+	Receiver: a RubSmalltalkEditor
+	Arguments and temporary variables: 
+		aBlock: 	[ :result | text selection: result ]
+	Receiver's instance variables: 
+		defaultKeymappingIndex: 	an IdentityDictionary(#command->#(#noop: #cursorHome: #...etc...
+		textArea: 	a RubEditingArea(512386816)
+		selectorChooser: 	nil
+		notificationStrategy: 	a GLMPopperNotificationStrategy
+
+
+[ textMorph textArea editor highlightEvaluateAndDo: ann action.
+textMorph shoutStyler style: textMorph text ] in [ textMorph textArea
+	handleEdit: [ textMorph textArea editor highlightEvaluateAndDo: ann action.
+		textMorph shoutStyler style: textMorph text ] ] in GLMMorphicPharoScriptRenderer(GLMMorphicPharoCodeRenderer)>>actOnHighlightAndEvaluate:
+	Receiver: a GLMMorphicPharoScriptRenderer
+	Arguments and temporary variables: 
+		ann: 	a GLMHighlightAndEvaluate
+	Receiver's instance variables: 
+		renderer: 	a GLMMorphicRenderer
+		textMorph: 	a RubScrolledTextMorph(115479552)
+		textModel: 	a GLMRubricSmalltalkTextModel
+
+
+RubEditingArea(RubAbstractTextArea)>>handleEdit:
+	Receiver: a RubEditingArea(512386816)
+	Arguments and temporary variables: 
+		editBlock: 	[ textMorph textArea editor highlightEvaluateAndDo: ann action.
+text...etc...
+	Receiver's instance variables: 
+		bounds: 	(0@0) corner: (285@50)
+		owner: 	a TransformWithLayoutMorph(279821568)
+		submorphs: 	an Array(a RubPrimarySelectionMorph(822435328) a RubCursor(253863680...etc...
+		fullBounds: 	(0@0) corner: (285@50)
+		color: 	Color transparent
+		extension: 	a MorphExtension (908720640) [other:  (announcer -> an Announcer) (k...etc...
+		model: 	a GLMRubricSmalltalkTextModel
+		paragraph: 	a RubShoutStylerDecorator
+		editor: 	a RubSmalltalkEditor
+		scrollPane: 	a RubTextScrollPane(1048066048)
+		editingState: 	a RubEditingState
+		textStyle: 	a TextStyle Source Code Pro
+		textColor: 	Color white
+		margins: 	(6@6) corner: (6@6)
+		readOnly: 	false
+		menuAllowed: 	nil
+		editingMode: 	a RubSmalltalkScriptingMode
+		cursor: 	a RubCursor(253863680)
+		segments: 	an OrderedCollection(a RubHighlightSegmentMorph(548529408))
+		getMenuPolicy: 	nil
+		mouseDownPoint: 	(112@66)
+		wrapped: 	true
+		editorClass: 	RubSmalltalkEditor
+
+
+[ textMorph textArea
+	handleEdit: [ textMorph textArea editor highlightEvaluateAndDo: ann action.
+		textMorph shoutStyler style: textMorph text ] ] in GLMMorphicPharoScriptRenderer(GLMMorphicPharoCodeRenderer)>>actOnHighlightAndEvaluate:
+	Receiver: a GLMMorphicPharoScriptRenderer
+	Arguments and temporary variables: 
+		ann: 	a GLMHighlightAndEvaluate
+	Receiver's instance variables: 
+		renderer: 	a GLMMorphicRenderer
+		textMorph: 	a RubScrolledTextMorph(115479552)
+		textModel: 	a GLMRubricSmalltalkTextModel
+
+
+WorldState>>runStepMethodsIn:
+	Receiver: a WorldState
+	Arguments and temporary variables: 
+		aWorld: 	a WorldMorph(562956288) [world]
+		queue: 	WaitfreeQueue with 0 items
+		nextInQueue: 	[ textMorph textArea
+	handleEdit: [ textMorph textArea editor high...etc...
+	Receiver's instance variables: 
+		hands: 	an Array(a HandMorph(58125568))
+		viewBox: 	(0@0) corner: (1920@1031)
+		canvas: 	a FormCanvas on: DisplayScreen(1920x1031x32)
+		damageRecorder: 	a DamageRecorder
+		stepList: 	a Heap(StepMessage(#stepAt: -> a DropListMorph(475499008))(a DropList...etc...
+		lastStepTime: 	4906068
+		lastStepMessage: 	nil
+		lastCycleTime: 	4906066
+		alarms: 	a Heap(MorphicAlarm(#hideShow -> a RubCursor(253863680)))
+		lastAlarmTime: 	4906068
+		menuBuilder: 	a PragmaMenuBuilder ( nil ) 
+		activeHand: 	a HandMorph(58125568)
+
+
+WorldMorph>>runStepMethods
+	Receiver: a WorldMorph(562956288) [world]
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		bounds: 	(0@0) corner: (1920@1031)
+		owner: 	nil
+		submorphs: 	an Array(a TaskbarMorph(804941056) a GLMSystemWindow(33238016) a Nau...etc...
+		fullBounds: 	(0@0) corner: (1920@1031)
+		color: 	(Color r: 0.295 g: 0.295 b: 0.295 alpha: 1.0)
+		extension: 	a MorphExtension (876095488) [other:  (dragEnabled -> true) (dropEna...etc...
+		borderWidth: 	0
+		borderColor: 	(Color r: 0.861 g: 1.0 b: 0.722 alpha: 1.0)
+		backgroundMorph: 	nil
+		worldState: 	a WorldState
+		griddingOn: 	nil
+		osWindow: 	nil
+		session: 	nil
+
+
+WorldState>>doOneCycleNowFor:
+	Receiver: a WorldState
+	Arguments and temporary variables: 
+		aWorld: 	a WorldMorph(562956288) [world]
+	Receiver's instance variables: 
+		hands: 	an Array(a HandMorph(58125568))
+		viewBox: 	(0@0) corner: (1920@1031)
+		canvas: 	a FormCanvas on: DisplayScreen(1920x1031x32)
+		damageRecorder: 	a DamageRecorder
+		stepList: 	a Heap(StepMessage(#stepAt: -> a DropListMorph(475499008))(a DropList...etc...
+		lastStepTime: 	4906068
+		lastStepMessage: 	nil
+		lastCycleTime: 	4906066
+		alarms: 	a Heap(MorphicAlarm(#hideShow -> a RubCursor(253863680)))
+		lastAlarmTime: 	4906068
+		menuBuilder: 	a PragmaMenuBuilder ( nil ) 
+		activeHand: 	a HandMorph(58125568)
+
+
+WorldState>>doOneCycleFor:
+	Receiver: a WorldState
+	Arguments and temporary variables: 
+		aWorld: 	a WorldMorph(562956288) [world]
+	Receiver's instance variables: 
+		hands: 	an Array(a HandMorph(58125568))
+		viewBox: 	(0@0) corner: (1920@1031)
+		canvas: 	a FormCanvas on: DisplayScreen(1920x1031x32)
+		damageRecorder: 	a DamageRecorder
+		stepList: 	a Heap(StepMessage(#stepAt: -> a DropListMorph(475499008))(a DropList...etc...
+		lastStepTime: 	4906068
+		lastStepMessage: 	nil
+		lastCycleTime: 	4906066
+		alarms: 	a Heap(MorphicAlarm(#hideShow -> a RubCursor(253863680)))
+		lastAlarmTime: 	4906068
+		menuBuilder: 	a PragmaMenuBuilder ( nil ) 
+		activeHand: 	a HandMorph(58125568)
+
+
+WorldMorph>>doOneCycle
+	Receiver: a WorldMorph(562956288) [world]
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		bounds: 	(0@0) corner: (1920@1031)
+		owner: 	nil
+		submorphs: 	an Array(a TaskbarMorph(804941056) a GLMSystemWindow(33238016) a Nau...etc...
+		fullBounds: 	(0@0) corner: (1920@1031)
+		color: 	(Color r: 0.295 g: 0.295 b: 0.295 alpha: 1.0)
+		extension: 	a MorphExtension (876095488) [other:  (dragEnabled -> true) (dropEna...etc...
+		borderWidth: 	0
+		borderColor: 	(Color r: 0.861 g: 1.0 b: 0.722 alpha: 1.0)
+		backgroundMorph: 	nil
+		worldState: 	a WorldState
+		griddingOn: 	nil
+		osWindow: 	nil
+		session: 	nil
+
+
+WorldMorph class>>doOneCycle
+	Receiver: WorldMorph
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		superclass: 	PasteUpMorph
+		methodDict: 	a MethodDictionary(#acceptDroppingMorph:event:->WorldMorph>>#accept...etc...
+		format: 	65549
+		layout: 	a FixedLayout
+		instanceVariables: 	nil
+		organization: 	a ClassOrganization
+		subclasses: 	{AthensWorldMorph. OSWindowWorldMorph}
+		name: 	#WorldMorph
+		classPool: 	a Dictionary(#ExtraWorldList->#() )
+		sharedPools: 	an OrderedCollection()
+		environment: 	a SystemDictionary(lots of globals)
+		category: 	#'Morphic-Core-Worlds'
+		traitComposition: 	{}
+		localSelectors: 	nil
+		announcer: 	nil
+
+
+[ [ WorldMorph doOneCycle.
+Processor yield.
+false ] whileFalse: [  ] ] in MorphicUIManager>>spawnNewProcess
+	Receiver: a MorphicUIManager
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		interactiveParser: 	nil
+		activeTranscript: 	nil
+
+
+[ self value.
+Processor terminateActive ] in BlockClosure>>newProcess
+	Receiver: [ [ WorldMorph doOneCycle.
+Processor yield.
+false ] whileFalse: [  ] ]
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		outerContext: 	MorphicUIManager>>spawnNewProcess
+		startpc: 	125
+		numArgs: 	0
+
+
+
+--- The full stack ---
+MethodDictionary(Dictionary)>>errorKeyNotFound:
+[ self errorKeyNotFound: key ] in MethodDictionary(Dictionary)>>at:
+MethodDictionary>>at:ifAbsent:
+MethodDictionary(Dictionary)>>at:
+Pile class(Behavior)>>compiledMethodAt:
+IDM>>idmPile
+UndefinedObject>>DoIt
+OpalCompiler>>evaluate
+RubSmalltalkEditor>>evaluate:andDo:
+RubSmalltalkEditor>>highlightEvaluateAndDo:
+[ textMorph textArea editor highlightEvaluateAndDo: ann action.
+textMorph shoutStyler style: textMorph text ] in [ textMorph textArea
+	handleEdit: [ textMorph textArea editor highlightEvaluateAndDo: ann action.
+		textMorph shoutStyler style: textMorph text ] ] in GLMMorphicPharoScriptRenderer(GLMMorphicPharoCodeRenderer)>>actOnHighlightAndEvaluate:
+RubEditingArea(RubAbstractTextArea)>>handleEdit:
+[ textMorph textArea
+	handleEdit: [ textMorph textArea editor highlightEvaluateAndDo: ann action.
+		textMorph shoutStyler style: textMorph text ] ] in GLMMorphicPharoScriptRenderer(GLMMorphicPharoCodeRenderer)>>actOnHighlightAndEvaluate:
+WorldState>>runStepMethodsIn:
+WorldMorph>>runStepMethods
+WorldState>>doOneCycleNowFor:
+WorldState>>doOneCycleFor:
+WorldMorph>>doOneCycle
+WorldMorph class>>doOneCycle
+[ [ WorldMorph doOneCycle.
+Processor yield.
+false ] whileFalse: [  ] ] in MorphicUIManager>>spawnNewProcess
+[ self value.
+Processor terminateActive ] in BlockClosure>>newProcess
+-------------------------------------------------------------------------------
+
