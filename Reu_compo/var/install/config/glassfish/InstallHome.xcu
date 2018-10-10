@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns1:component-data xmlns:ns1="http://openoffice.org/2001/registry" xmlns:ns2="http://openinstaller.org/config/V1" ns1:readonly="true" ns1:finalized="true" ns1:package="org.openinstaller.InstallHome">
+    <node ns1:name="directory">
+        <prop ns1:type="xs:string" ns1:name="INSTALL_HOME">
+            <value>/auto_home/trogliano/Master_2/Reu_compo</value>
+        </prop>
+    </node>
+</ns1:component-data>

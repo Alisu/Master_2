@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<hotspot_log version='160 1' process='30966' time_ms='1539162486762'>
+<vm_version>
+<name>
+Java HotSpot(TM) 64-Bit Server VM
+</name>
+<release>
+25.181-b13
+</release>
+<info>
+Java HotSpot(TM) 64-Bit Server VM (25.181-b13) for linux-amd64 JRE (1.8.0_181-b13), built on Jul  7 2018 00:56:38 by &quot;java_re&quot; with gcc 4.3.0 20080428 (Red Hat 4.3.0-8)
+</info>
+</vm_version>
+<vm_arguments>
+<args>
+-XX:MaxPermSize=192m -XX:+UnlockDiagnosticVMOptions -XX:+LogVMOutput -XX:LogFile=/auto_home/trogliano/Master_2/Reu_compo/glassfish/domains/domain1/logs/jvm.log -Djava.endorsed.dirs=/auto_home/trogliano/Master_2/Reu_compo/glassfish/modules/endorsed:/auto_home/trogliano/Master_2/Reu_compo/glassfish/lib/endorsed -Djava.security.policy=/auto_home/trogliano/Master_2/Reu_compo/glassfish/domains/domain1/config/server.policy -Djava.security.auth.login.config=/auto_home/trogliano/Master_2/Reu_compo/glassfish/domains/domain1/config/login.conf -Dcom.sun.enterprise.security.httpsOutboundKeyAlias=s1as -Xmx512m -Djavax.net.ssl.keyStore=/auto_home/trogliano/Master_2/Reu_compo/glassfish/domains/domain1/config/keystore.jks -Djavax.net.ssl.trustStore=/auto_home/trogliano/Master_2/Reu_compo/glassfish/domains/domain1/config/cacerts.jks -Djava.ext.dirs=/usr/lib/jvm/java-8-oracle/lib/ext:/usr/lib/jvm/java-8-oracle/jre/lib/ext:/auto_home/trogliano/Master_2/Reu_compo/glassfish/domains/domain1/lib/ext -Djdbc.drivers=org.apache.derby.jdbc.ClientDriver -DANTLR_USE_DIRECT_CLASS_LOADING=true -Dcom.sun.enterprise.config.config_environment_factory_class=com.sun.enterprise.config.serverbeans.AppserverConfigEnvironmentFactory -Dosgi.shell.telnet.port=6666 -Dosgi.shell.telnet.maxconn=1 -Dosgi.shell.telnet.ip=127.0.0.1 -Dfelix.fileinstall.dir=/auto_home/trogliano/Master_2/Reu_compo/glassfish/modules/autostart/ -Dfelix.fileinstall.poll=5000 -Dfelix.fileinstall.debug=1 -Dfelix.fileinstall.bundles.new.start=true -Dorg.glassfish.web.rfc2109_cookie_names_enforced=false -XX:NewRatio=2 -javaagent:/auto_home/trogliano/Master_2/Reu_compo/glassfish/lib/monitor/btrace-agent.jar=unsafe=true,noServer=true -Dcom.sun.aas.derbyRoot=/auto_home/trogliano/Master_2/Reu_compo/javadb -Dcom.sun.aas.instanceRoot=/auto_home/trogliano/Master_2/Reu_compo/glassfish/domains/domain1 -Dcom.sun.aas.installRoot=/auto_home/trogliano/Master_2/Reu_compo/glassfish -Dcom.sun.aas.javaRoot=/usr/lib/jvm/java-8-oracle 
+</args>
+<command>
+com.sun.enterprise.glassfish.bootstrap.ASMain --domain domain1 --domaindir /auto_home/trogliano/Master_2/Reu_compo/glassfish/domains/domain1
+</command>
+<launcher>
+SUN_STANDARD
+</launcher>
+<properties>
+java.vm.specification.name=Java Virtual Machine Specification
+java.vm.version=25.181-b13
+java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+java.vm.info=mixed mode, sharing
+java.ext.dirs=/usr/lib/jvm/java-8-oracle/lib/ext:/usr/lib/jvm/java-8-oracle/jre/lib/ext:/auto_home/trogliano/Master_2/Reu_compo/glassfish/domains/domain1/lib/ext
+java.endorsed.dirs=/auto_home/trogliano/Master_2/Reu_compo/glassfish/modules/endorsed:/auto_home/trogliano/Master_2/Reu_compo/glassfish/lib/endorsed
+sun.boot.library.path=/usr/lib/jvm/java-8-oracle/jre/lib/amd64
+java.library.path=/usr/lib/jvm/java-8-oracle/jre/lib/amd64:/usr/lib/jvm/java-8-oracle/jre/lib/i386::/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+java.home=/usr/lib/jvm/java-8-oracle/jre
+java.class.path=/auto_home/trogliano/Master_2/Reu_compo/glassfish/modules/glassfish.jar
+sun.boot.class.path=/auto_home/trogliano/Master_2/Reu_compo/glassfish/modules/endorsed/jaxb-api-osgi.jar:/auto_home/trogliano/Master_2/Reu_compo/glassfish/modules/endorsed/javax.annotation.jar:/auto_home/trogliano/Master_2/Reu_compo/glassfish/modules/endorsed/webservices-api-osgi.jar:/usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes
+java.vm.specification.vendor=Oracle Corporation
+java.vm.specification.version=1.8
+java.vm.vendor=Oracle Corporation
+java.security.policy=/auto_home/trogliano/Master_2/Reu_compo/glassfish/domains/domain1/config/server.policy
+java.security.auth.login.config=/auto_home/trogliano/Master_2/Reu_compo/glassfish/domains/domain1/config/login.conf
+com.sun.enterprise.security.httpsOutboundKeyAlias=s1as
+javax.net.ssl.keyStore=/auto_home/trogliano/Master_2/Reu_compo/glassfish/domains/domain1/config/keystore.jks
+javax.net.ssl.trustStore=/auto_home/trogliano/Master_2/Reu_compo/glassfish/domains/domain1/config/cacerts.jks
+jdbc.drivers=org.apache.derby.jdbc.ClientDriver
+ANTLR_USE_DIRECT_CLASS_LOADING=true
+com.sun.enterprise.config.config_environment_factory_class=com.sun.enterprise.config.serverbeans.AppserverConfigEnvironmentFactory
+osgi.shell.telnet.port=6666
+osgi.shell.telnet.maxconn=1
+osgi.shell.telnet.ip=127.0.0.1
+felix.fileinstall.dir=/auto_home/trogliano/Master_2/Reu_compo/glassfish/modules/autostart/
+felix.fileinstall.poll=5000
+felix.fileinstall.debug=1
+felix.fileinstall.bundles.new.start=true
+org.glassfish.web.rfc2109_cookie_names_enforced=false
+com.sun.aas.derbyRoot=/auto_home/trogliano/Master_2/Reu_compo/javadb
+com.sun.aas.instanceRoot=/auto_home/trogliano/Master_2/Reu_compo/glassfish/domains/domain1
+com.sun.aas.installRoot=/auto_home/trogliano/Master_2/Reu_compo/glassfish
+com.sun.aas.javaRoot=/usr/lib/jvm/java-8-oracle
+sun.java.command=com.sun.enterprise.glassfish.bootstrap.ASMain --domain domain1 --domaindir /auto_home/trogliano/Master_2/Reu_compo/glassfish/domains/domain1
+sun.java.launcher=SUN_STANDARD
+</properties>
+</vm_arguments>
+<tty>
+<blob name='MethodHandlesAdapterBlob' size='32000'>
+<sect index='1' size='32000' free='31632'/>
+</blob>
+<writer thread='140226284119808'/>
+<dependency_failed type='leaf_type' ctxk='java/io/BufferedReader' witness='java/io/LineNumberReader' stamp='0,398'/>
+<writer thread='140225852413696'/>
+<dependency_failed type='leaf_type' ctxk='java/lang/ThreadLocal' witness='org/apache/felix/framework/util/SecureAction$1' stamp='0,489'/>
+<dependency_failed type='leaf_type' ctxk='java/lang/ThreadLocal' witness='org/apache/felix/framework/util/SecureAction$1' stamp='0,489'/>
+<dependency_failed type='leaf_type' ctxk='java/lang/ThreadLocal' witness='org/apache/felix/framework/util/SecureAction$1' stamp='0,489'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/jar/JarFile' x='java/util/jar/JarFile getJarEntry (Ljava/lang/String;)Ljava/util/jar/JarEntry;' witness='org/apache/felix/framework/util/JarFileX' stamp='0,714'/>
+<writer thread='140225773909760'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/lang/ThreadLocal' x='java/lang/ThreadLocal getMap (Ljava/lang/Thread;)Ljava/lang/ThreadLocal$ThreadLocalMap;' witness='java/lang/InheritableThreadLocal' stamp='19,643'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/lang/ThreadLocal' x='java/lang/ThreadLocal getMap (Ljava/lang/Thread;)Ljava/lang/ThreadLocal$ThreadLocalMap;' witness='java/lang/InheritableThreadLocal' stamp='19,643'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/lang/ThreadLocal' x='java/lang/ThreadLocal getMap (Ljava/lang/Thread;)Ljava/lang/ThreadLocal$ThreadLocalMap;' witness='java/lang/InheritableThreadLocal' stamp='19,643'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/lang/ThreadLocal' x='java/lang/ThreadLocal getMap (Ljava/lang/Thread;)Ljava/lang/ThreadLocal$ThreadLocalMap;' witness='java/lang/InheritableThreadLocal' stamp='19,643'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/lang/ThreadLocal' x='java/lang/ThreadLocal getMap (Ljava/lang/Thread;)Ljava/lang/ThreadLocal$ThreadLocalMap;' witness='java/lang/InheritableThreadLocal' stamp='19,643'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/lang/ThreadLocal' x='java/lang/ThreadLocal getMap (Ljava/lang/Thread;)Ljava/lang/ThreadLocal$ThreadLocalMap;' witness='java/lang/InheritableThreadLocal' stamp='19,643'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/lang/ThreadLocal' x='java/lang/ThreadLocal getMap (Ljava/lang/Thread;)Ljava/lang/ThreadLocal$ThreadLocalMap;' witness='java/lang/InheritableThreadLocal' stamp='19,643'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/lang/ThreadLocal' x='java/lang/ThreadLocal getMap (Ljava/lang/Thread;)Ljava/lang/ThreadLocal$ThreadLocalMap;' witness='java/lang/InheritableThreadLocal' stamp='19,643'/>
+<dependency_failed type='leaf_type' ctxk='java/util/Properties' witness='java/security/Provider' stamp='19,644'/>
+<dependency_failed type='leaf_type' ctxk='java/util/Properties' witness='java/security/Provider' stamp='19,644'/>
+<dependency_failed type='leaf_type' ctxk='java/util/Properties' witness='java/security/Provider' stamp='19,644'/>
+<dependency_failed type='leaf_type' ctxk='java/util/HashSet' witness='java/util/LinkedHashSet' stamp='19,653'/>
+<tty_done stamp='252,066'/>
+</tty>
+<hotspot_log_done stamp='252,066'/>
+</hotspot_log>
