@@ -1,0 +1,10 @@
+Le but de se refactor était de "push down" la méthode Etudier() de Person qui serait plus bienvenu pour un étudiant.
+Pour se faire, il faut:
+-Accéder au menu refactor dans la barre des menus
+-Choisir Push Down puis la méthode à push down
+-Suivant puis finish.
+
+La méthode Etudier() a été déplacer vers la classe fille de Person, Student. L'attribut skill appartenant à Person est passé en visibilité protected afin d'être utilisable dans la classe Fille.
+
+Il aurait été plus judicieux de générer un getter/setter pour l'attribut et faire appel à ses derniers plutôt que de changer la visibilté de l'attribut.
+

@@ -1,0 +1,10 @@
+Le but de ce refactor était d'encapsuler l'attribut parcours de la classe Etudiant.
+Pour se faire, il faut:
+-Sélectionner le champ à refactor (clique sur parcours)
+-Accéder au menu refactor dans la barre des menus
+-Choisir Encapsulate field
+-Suivant puis finish.
+
+Des getters et setters sont créés pour l'attribut parcours. Ce dernier est rendu privé.
+
+Attention, dans le main dans la classe Parcours, le changement en l'appel du setter n'a pas été fait automatiquement et on continue d'appeler le champ, un autre mini refactor a été nécessaire pour arranger celà (et donc compiler). 
