@@ -815,3 +815,62 @@ Caused by: java.io.NotSerializableException: memo.impl.WorldImpl
 	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:348)
 	at org.eclipse.emf.ecore.impl.EFactoryImpl.convertToString(EFactoryImpl.java:687)
 	... 80 more
+!SESSION 2018-11-06 13:23:18.975 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_181
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=fr_FR
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data /auto_home/trogliano/Master_2/IDM/../runtime-New_configuration -dev file:/auto_home/trogliano/Master_2/IDM/.metadata/.plugins/org.eclipse.pde.core/New_configuration/dev.properties -os linux -ws gtk -arch x86_64 -consoleLog
+
+!ENTRY org.eclipse.core.resources 2 10035 2018-11-06 13:23:22.912
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jface 2 0 2018-11-06 13:23:27.780
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2018-11-06 13:23:27.780
+!MESSAGE A conflict occurred for CTRL+6:
+Binding(CTRL+6,
+	ParameterizedCommand(Command(org.eclipse.emf.ecp.cdo.ui.checkinCommand,Checkin,
+		,
+		Category(org.eclipse.emf.ecp.cdo.ui.commands,ECP CDO Provider,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@35920655,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+6,
+	ParameterizedCommand(Command(tp.metaprogramming.memo.simulator.commands.sampleCommand,Sample Command,
+		,
+		Category(tp.metaprogramming.memo.simulator.commands.category,Sample Category,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@27558dee,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SESSION 2018-11-06 13:36:20.204 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_181
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=fr_FR
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data /auto_home/trogliano/Master_2/IDM/../runtime-New_configuration -dev file:/auto_home/trogliano/Master_2/IDM/.metadata/.plugins/org.eclipse.pde.core/New_configuration/dev.properties -os linux -ws gtk -arch x86_64 -consoleLog
+
+!ENTRY org.eclipse.jface 2 0 2018-11-06 13:36:25.543
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2018-11-06 13:36:25.543
+!MESSAGE A conflict occurred for CTRL+6:
+Binding(CTRL+6,
+	ParameterizedCommand(Command(org.eclipse.emf.ecp.cdo.ui.checkinCommand,Checkin,
+		,
+		Category(org.eclipse.emf.ecp.cdo.ui.commands,ECP CDO Provider,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2ee5fe1e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+6,
+	ParameterizedCommand(Command(tp.metaprogramming.memo.simulator.commands.sampleCommand,Sample Command,
+		,
+		Category(tp.metaprogramming.memo.simulator.commands.category,Sample Category,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2b30b25f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)

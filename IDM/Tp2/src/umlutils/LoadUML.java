@@ -1,5 +1,7 @@
 package umlutils;
 
+import java.util.ArrayList;
+
 import org.eclipse.emf.*;
 import org.eclipse.emf.common.util.*;
 import org.eclipse.emf.ecore.*;
@@ -9,16 +11,12 @@ import org.eclipse.emf.ecore.xmi.XMLResource;
 import org.eclipse.emf.ecore.xmi.impl.XMIResourceFactoryImpl;
 import org.eclipse.emf.ecore.xmi.impl.XMLMapImpl;
 
-import org.eclipse.uml2.uml.Model;
-//import org.eclipse.uml2.uml.UMLFactory;
-import org.eclipse.uml2.uml.UMLPackage;
-
 import com.sun.management.VMOption.Origin;
 import com.sun.xml.internal.bind.v2.schemagen.xmlschema.Element;
-import org.eclipse.uml2.uml.PackageableElement;
-import org.eclipse.uml2.uml.Property;
+
 import org.eclipse.uml2.uml.Package;
 import org.eclipse.uml2.uml.Class;
+//import org.eclipse.uml2.uml.UMLFactory;
 import org.eclipse.uml2.uml.*;
 
 public class LoadUML {
@@ -44,6 +42,18 @@ public class LoadUML {
 		//Sauvegarder le modèle avec son nouveau nom
 		sauverModele("model/changerNom.uml", umlP);
 		
+		//2nd part
+        ArrayList<StateMachine> sms=getStateMachineFromClass(findClassInPackage("aClass",findPackageInPackage("pouet",umlP)));
+        for(StateMachine sm: sms){
+            System.out.println("Does that StateMachine has only one region?");
+            System.out.println(stateMachineHasOnlyOneRegion(sm));
+            
+            System.out.println("And contains :");
+            System.out.println(getStatesFromStateMachine(sm));
+            
+            System.out.println("which are triggered by methods:");
+            System.out.println(getTriggerOperationFromStateMachine(sm));
+        }
 	}
 	
 	
@@ -164,5 +174,82 @@ public class LoadUML {
 				Op.getOperations().remove(o);
 			}
 		}
-				 
+		
+		//machine à état
+		//Q2
+		public static ArrayList<StateMachine> getStateMachineFromClass(Class c){
+			ArrayList<StateMachine> arState = new ArrayList<StateMachine>();
+			EList<Behavior> bal = c.getOwnedBehaviors();
+			if(bal!=null){
+				for(Behavior b : c.getOwnedBehaviors()){
+					if(b instanceof StateMachine){
+						arState.add((StateMachine) b);
+					}
+				}
+			}
+			else{
+				System.out.println("Classe sans machine à état.");
+			}
+			return arState;
+		}
+		//Q3		 
+		public static boolean stateMachineHasOnlyOneRegion(StateMachine stama){
+			boolean res = false;
+			if(stama.getRegions().size()==1){
+				res=true;
+			}
+			return res;
+		}
+		//Q4
+		public static ArrayList<State> getStatesFromStateMachine(StateMachine stama){
+			
+			ArrayList<State> arState= new ArrayList<State>();
+			if(stateMachineHasOnlyOneRegion(stama)){
+				Region r=stama.getRegions().get(0);
+				for(Vertex ver: r.getSubvertices()){
+					if(ver instanceof State){
+						arState.add((State) ver);
+					}
+				}
+			}
+			return arState;
+		}
+		//Q5
+		public static ArrayList<Operation> getTriggerOperationFromStateMachine(StateMachine stama){
+			ArrayList<Operation> arOP = new ArrayList<Operation>();
+			if(stateMachineHasOnlyOneRegion(stama)){
+				Region r=stama.getRegions().get(0);
+				for(Transition transition : r.getTransitions()){
+					for(Trigger trigger: transition.getTriggers()){				
+						Event e = trigger.getEvent();
+						if(e instanceof CallEvent){
+							arOP.add(((CallEvent) e).getOperation());		
+						}
+					}
+				}
+			}
+			return arOP;
+		}
+		//Q6
+		
+		public static Class AbsEtatGenerator(Class c){
+			Class cgen =UMLFactory.eINSTANCE.createClass();
+			cgen.setIsAbstract(true);
+			cgen.setName("State"+c.getName());
+			
+			
+			return cgen;
+		}
+		
+		public static Class factoryClass(String name,Operation op){
+            Class c=UMLFactory.eINSTANCE.createClass();
+            c.setName(name);
+    
+            return c;
+        }
+		
+		public static void applyState(Class c){
+			
+		}
+		
 }

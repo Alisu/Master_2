@@ -4,7 +4,7 @@
   <eClassifiers xsi:type="ecore:EClass" name="MemoClass" abstract="true">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="instances" upperBound="-1"
         eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EJavaObject"
-        derived="true"/>
+        changeable="false" transient="true" derived="true"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="NamedElement" abstract="true" eSuperTypes="#//MemoClass">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
