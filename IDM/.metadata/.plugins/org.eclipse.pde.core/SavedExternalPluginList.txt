@@ -1,4 +1,4 @@
-# List of external plug-in models previously loaded. Timestamp: 1538480626111
+# List of external plug-in models previously loaded. Timestamp: 1541504415673
 file:/auto_home/trogliano/.p2/pool/plugins/com.google.gson_2.2.4.v201311231704.jar
 file:/auto_home/trogliano/.p2/pool/plugins/com.google.guava_15.0.0.v201403281430.jar
 file:/auto_home/trogliano/.p2/pool/plugins/com.google.inject_3.0.0.v201605172100.jar
@@ -55,7 +55,18 @@ file:/auto_home/trogliano/.p2/pool/plugins/org.apache.xml.resolver_1.2.0.v201005
 file:/auto_home/trogliano/.p2/pool/plugins/org.apache.xml.serializer_2.7.1.v201005080400.jar
 file:/auto_home/trogliano/.p2/pool/plugins/org.apache.xmlrpc_3.0.0.v20100427-1100.jar
 file:/auto_home/trogliano/.p2/pool/plugins/org.eclipse.acceleo.annotations_5.0.1.201610060831.jar
+file:/auto_home/trogliano/.p2/pool/plugins/org.eclipse.acceleo.common_3.6.6.201610060831.jar
+file:/auto_home/trogliano/.p2/pool/plugins/org.eclipse.acceleo.common.ide_3.6.6.201610060831.jar
+file:/auto_home/trogliano/.p2/pool/plugins/org.eclipse.acceleo.common.ui_3.6.6.201610060831.jar
+file:/auto_home/trogliano/.p2/pool/plugins/org.eclipse.acceleo.engine_3.6.6.201610060831.jar
+file:/auto_home/trogliano/.p2/pool/plugins/org.eclipse.acceleo.ide.ui_3.6.6.201610060831.jar
+file:/auto_home/trogliano/.p2/pool/plugins/org.eclipse.acceleo.model_3.6.6.201610060831.jar
+file:/auto_home/trogliano/.p2/pool/plugins/org.eclipse.acceleo.parser_3.6.6.201610060831.jar
+file:/auto_home/trogliano/.p2/pool/plugins/org.eclipse.acceleo.profiler_3.6.6.201610060831.jar
 file:/auto_home/trogliano/.p2/pool/plugins/org.eclipse.acceleo.query_5.0.2.201610060831.jar
+file:/auto_home/trogliano/.p2/pool/plugins/org.eclipse.acceleo.traceability_3.6.6.201610060831.jar
+file:/auto_home/trogliano/.p2/pool/plugins/org.eclipse.acceleo.traceability.model_3.6.6.201610060831.jar
+file:/auto_home/trogliano/.p2/pool/plugins/org.eclipse.acceleo.ui.interpreter_3.6.6.201610060831.jar
 file:/auto_home/trogliano/.p2/pool/plugins/org.eclipse.amalgam.discovery.core_1.7.0.201605311215.jar
 file:/auto_home/trogliano/.p2/pool/plugins/org.eclipse.amalgam.discovery.modeling_1.7.0.201605311215.jar
 file:/auto_home/trogliano/.p2/pool/plugins/org.eclipse.amalgam.discovery.ui_1.7.0.201605311215.jar
@@ -127,6 +138,18 @@ file:/auto_home/trogliano/.p2/pool/plugins/org.eclipse.ecf.provider.filetransfer
 file:/auto_home/trogliano/.p2/pool/plugins/org.eclipse.ecf.provider.filetransfer.httpclient4.ssl_1.1.0.v20160823-2221.jar
 file:/auto_home/trogliano/.p2/pool/plugins/org.eclipse.ecf.provider.filetransfer.ssl_1.0.0.v20160823-2221.jar
 file:/auto_home/trogliano/.p2/pool/plugins/org.eclipse.ecf.ssl_1.2.0.v20160823-2221.jar
+file:/auto_home/trogliano/.p2/pool/plugins/org.eclipse.eef_1.9.0.201701271010.jar
+file:/auto_home/trogliano/.p2/pool/plugins/org.eclipse.eef.common_1.9.0.201701271010.jar
+file:/auto_home/trogliano/.p2/pool/plugins/org.eclipse.eef.common.ui_1.9.0.201701271010.jar
+file:/auto_home/trogliano/.p2/pool/plugins/org.eclipse.eef.core_1.9.0.201701271010.jar
+file:/auto_home/trogliano/.p2/pool/plugins/org.eclipse.eef.core.ext.widgets.reference_1.9.0.201701271010.jar
+file:/auto_home/trogliano/.p2/pool/plugins/org.eclipse.eef.ext.widgets.reference_1.9.0.201701271010.jar
+file:/auto_home/trogliano/.p2/pool/plugins/org.eclipse.eef.ide_1.9.0.201701271010.jar
+file:/auto_home/trogliano/.p2/pool/plugins/org.eclipse.eef.ide.ui_1.9.0.201701271010.jar
+file:/auto_home/trogliano/.p2/pool/plugins/org.eclipse.eef.ide.ui.ext.widgets.reference_1.9.0.201701271010.jar
+file:/auto_home/trogliano/.p2/pool/plugins/org.eclipse.eef.ide.ui.properties_1.9.0.201701271010.jar
+file:/auto_home/trogliano/.p2/pool/plugins/org.eclipse.eef.properties.ui_2.0.0.201701271010.jar
+file:/auto_home/trogliano/.p2/pool/plugins/org.eclipse.eef.properties.ui.legacy_1.9.0.201701271010.jar
 file:/auto_home/trogliano/.p2/pool/plugins/org.eclipse.egit_4.6.1.201703071140-r.jar
 file:/auto_home/trogliano/.p2/pool/plugins/org.eclipse.egit.core_4.6.1.201703071140-r.jar
 file:/auto_home/trogliano/.p2/pool/plugins/org.eclipse.egit.doc_4.6.1.201703071140-r.jar
@@ -783,6 +806,10 @@ file:/auto_home/trogliano/.p2/pool/plugins/org.eclipse.search_3.11.1.v20161113-1
 file:/auto_home/trogliano/.p2/pool/plugins/org.eclipse.sirius_4.1.3.201701271256.jar
 file:/auto_home/trogliano/.p2/pool/plugins/org.eclipse.sirius.common_4.1.3.201701271256.jar
 file:/auto_home/trogliano/.p2/pool/plugins/org.eclipse.sirius.common.acceleo.aql_4.1.3.201701271256.jar
+file:/auto_home/trogliano/.p2/pool/plugins/org.eclipse.sirius.common.acceleo.aql.ide_4.1.3.201701271256.jar
+file:/auto_home/trogliano/.p2/pool/plugins/org.eclipse.sirius.common.acceleo.mtl_4.1.3.201701271256.jar
+file:/auto_home/trogliano/.p2/pool/plugins/org.eclipse.sirius.common.acceleo.mtl.ide_4.1.3.201701271256.jar
+file:/auto_home/trogliano/.p2/pool/plugins/org.eclipse.sirius.common.interpreter_4.1.3.201701271256.jar
 file:/auto_home/trogliano/.p2/pool/plugins/org.eclipse.sirius.common.ui_4.1.3.201701271256.jar
 file:/auto_home/trogliano/.p2/pool/plugins/org.eclipse.sirius.common.ui.ext_4.1.3.201701271256.jar
 file:/auto_home/trogliano/.p2/pool/plugins/org.eclipse.sirius.diagram_4.1.3.201701271256.jar
@@ -793,7 +820,15 @@ file:/auto_home/trogliano/.p2/pool/plugins/org.eclipse.sirius.diagram.sequence.e
 file:/auto_home/trogliano/.p2/pool/plugins/org.eclipse.sirius.diagram.sequence.ui_4.1.3.201701271256.jar
 file:/auto_home/trogliano/.p2/pool/plugins/org.eclipse.sirius.diagram.ui_4.1.3.201701271256.jar
 file:/auto_home/trogliano/.p2/pool/plugins/org.eclipse.sirius.diagram.ui.ext_4.1.3.201701271256.jar
+file:/auto_home/trogliano/.p2/pool/plugins/org.eclipse.sirius.doc_4.1.3.201701271256.jar
 file:/auto_home/trogliano/.p2/pool/plugins/org.eclipse.sirius.ecore.extender_4.1.3.201701271256.jar
+file:/auto_home/trogliano/.p2/pool/plugins/org.eclipse.sirius.editor_4.1.3.201701271256.jar
+file:/auto_home/trogliano/.p2/pool/plugins/org.eclipse.sirius.editor.diagram_4.1.3.201701271256.jar
+file:/auto_home/trogliano/.p2/pool/plugins/org.eclipse.sirius.editor.properties_4.1.3.201701271256.jar
+file:/auto_home/trogliano/.p2/pool/plugins/org.eclipse.sirius.editor.properties.ext.widgets.reference_4.1.3.201701271256.jar
+file:/auto_home/trogliano/.p2/pool/plugins/org.eclipse.sirius.editor.sequence_4.1.3.201701271256.jar
+file:/auto_home/trogliano/.p2/pool/plugins/org.eclipse.sirius.editor.table_4.1.3.201701271256.jar
+file:/auto_home/trogliano/.p2/pool/plugins/org.eclipse.sirius.editor.tree_4.1.3.201701271256.jar
 file:/auto_home/trogliano/.p2/pool/plugins/org.eclipse.sirius.eef.adapters_4.1.3.201701271256.jar
 file:/auto_home/trogliano/.p2/pool/plugins/org.eclipse.sirius.ext.base_4.1.3.201701271256.jar
 file:/auto_home/trogliano/.p2/pool/plugins/org.eclipse.sirius.ext.draw2d_4.1.3.201701271256.jar
@@ -808,6 +843,11 @@ file:/auto_home/trogliano/.p2/pool/plugins/org.eclipse.sirius.ext.gmf.notation_4
 file:/auto_home/trogliano/.p2/pool/plugins/org.eclipse.sirius.ext.gmf.runtime_4.1.3.201701271256.jar
 file:/auto_home/trogliano/.p2/pool/plugins/org.eclipse.sirius.ext.jface_4.1.3.201701271256.jar
 file:/auto_home/trogliano/.p2/pool/plugins/org.eclipse.sirius.ext.swt_4.1.3.201701271256.jar
+file:/auto_home/trogliano/.p2/pool/plugins/org.eclipse.sirius.interpreter_4.1.3.201701271256.jar
+file:/auto_home/trogliano/.p2/pool/plugins/org.eclipse.sirius.properties_4.1.3.201701271256.jar
+file:/auto_home/trogliano/.p2/pool/plugins/org.eclipse.sirius.properties.edit_4.1.3.201701271256.jar
+file:/auto_home/trogliano/.p2/pool/plugins/org.eclipse.sirius.properties.ext.widgets.reference_4.1.3.201701271256.jar
+file:/auto_home/trogliano/.p2/pool/plugins/org.eclipse.sirius.properties.ext.widgets.reference.edit_4.1.3.201701271256.jar
 file:/auto_home/trogliano/.p2/pool/plugins/org.eclipse.sirius.synchronizer_4.1.3.201701271256.jar
 file:/auto_home/trogliano/.p2/pool/plugins/org.eclipse.sirius.table_4.1.3.201701271256.jar
 file:/auto_home/trogliano/.p2/pool/plugins/org.eclipse.sirius.table.ui_4.1.3.201701271256.jar
@@ -817,6 +857,8 @@ file:/auto_home/trogliano/.p2/pool/plugins/org.eclipse.sirius.tree.ui_4.1.3.2017
 file:/auto_home/trogliano/.p2/pool/plugins/org.eclipse.sirius.tree.ui.ext_4.1.3.201701271256.jar
 file:/auto_home/trogliano/.p2/pool/plugins/org.eclipse.sirius.ui_4.1.3.201701271256.jar
 file:/auto_home/trogliano/.p2/pool/plugins/org.eclipse.sirius.ui.ext_4.1.3.201701271256.jar
+file:/auto_home/trogliano/.p2/pool/plugins/org.eclipse.sirius.ui.properties_4.1.3.201701271256.jar
+file:/auto_home/trogliano/.p2/pool/plugins/org.eclipse.sirius.ui.properties.ext.widgets.reference_4.1.3.201701271256.jar
 file:/auto_home/trogliano/.p2/pool/plugins/org.eclipse.swt_3.105.3.v20170228-0512.jar
 file:/auto_home/trogliano/.p2/pool/plugins/org.eclipse.swt.gtk.linux.x86_64_3.105.3.v20170228-0512.jar
 file:/auto_home/trogliano/.p2/pool/plugins/org.eclipse.team.core_3.8.0.v20160418-1534.jar
