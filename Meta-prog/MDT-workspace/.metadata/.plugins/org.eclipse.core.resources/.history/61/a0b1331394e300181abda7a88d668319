@@ -1,0 +1,192 @@
+package tp.metaprogramming.memo.simulator.handlers;
+
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.util.HashMap;
+import java.util.Map;
+
+import org.eclipse.core.commands.AbstractHandler;
+import org.eclipse.core.commands.ExecutionEvent;
+import org.eclipse.core.commands.ExecutionException;
+import org.eclipse.emf.common.notify.Adapter;
+import org.eclipse.emf.common.notify.AdapterFactory;
+import org.eclipse.emf.common.notify.Notification;
+import org.eclipse.emf.common.notify.Notifier;
+import org.eclipse.emf.common.util.EList;
+import org.eclipse.emf.common.util.TreeIterator;
+import org.eclipse.emf.common.util.URI;
+import org.eclipse.emf.ecore.EObject;
+import org.eclipse.emf.ecore.EPackage.Registry;
+import org.eclipse.emf.ecore.resource.Resource;
+import org.eclipse.emf.ecore.resource.ResourceSet;
+import org.eclipse.emf.ecore.resource.URIConverter;
+import org.eclipse.emf.ecore.resource.impl.ResourceSetImpl;
+import org.eclipse.emf.ecore.xmi.impl.XMIResourceImpl;
+import org.eclipse.ui.IWorkbenchWindow;
+import org.eclipse.ui.handlers.HandlerUtil;
+
+import tp.metaprogramming.memo.MemoPackage;
+import tp.metaprogramming.memo.World;
+
+import org.eclipse.jface.dialogs.MessageDialog;
+
+public class BirthdayHandler extends AbstractHandler {
+	
+	private static final String modelPath="/media/rogliano/Disque Local/runtime-New_configuration/tp.metaprogramming.memo.model";
+	private static ResourceSet reSet=null;
+	
+	private static EObject loadModel() throws IOException {
+		XMIResourceImpl resource = new XMIResourceImpl();
+		reSet.getResources().add(resource);
+		resource.load(new FileInputStream(new File(modelPath)), new HashMap<Object, Object>());
+		return resource.getContents().get(0);
+	}
+	
+	private static void saveModel(EObject container) throws IOException{
+		FileOutputStream fileOutputStream = new FileOutputStream(new File(modelPath));
+		container.eResource().save(fileOutputStream, new HashMap<Object, Object>());
+	}
+	
+	private static void initResourceSet() {
+		if(reSet != null) {
+			return;
+		}
+		reSet = new ResourceSetImpl();
+		reSet.getPackageRegistry().put("htpp//www.example.org/memo", MemoPackage.eINSTANCE);
+		reSet.getURIConverter().getURIMap().put(URI.createURI("htpp://www.example.org/incrementation"), URI.createURI(MemoPackage.eINSTANCE.getNsURI()));
+	}	
+			
+		/*	@Override
+			public void eSetDeliver(boolean deliver) {
+				// TODO Auto-generated method stub
+				
+			}
+			
+			@Override
+			public void eNotify(Notification notification) {
+				// TODO Auto-generated method stub
+				
+			}
+			
+			@Override
+			public boolean eDeliver() {
+				// TODO Auto-generated method stub
+				return false;
+			}
+			
+			@Override
+			public EList<Adapter> eAdapters() {
+				// TODO Auto-generated method stub
+				return null;
+			}
+			
+			@Override
+			public void setURIConverter(URIConverter converter) {
+				// TODO Auto-generated method stub
+				
+			}
+			
+			@Override
+			public void setResourceFactoryRegistry(
+					org.eclipse.emf.ecore.resource.Resource.Factory.Registry resourceFactoryRegistry) {
+				// TODO Auto-generated method stub
+				
+			}
+			
+			@Override
+			public void setPackageRegistry(Registry packageRegistry) {
+				// TODO Auto-generated method stub
+				
+			}
+			
+			@Override
+			public URIConverter getURIConverter() {
+				// TODO Auto-generated method stub
+				return null;
+			}
+			
+			@Override
+			public EList<Resource> getResources() {
+				// TODO Auto-generated method stub
+				return null;
+			}
+			
+			@Override
+			public org.eclipse.emf.ecore.resource.Resource.Factory.Registry getResourceFactoryRegistry() {
+				// TODO Auto-generated method stub
+				return null;
+			}
+			
+			@Override
+			public Resource getResource(URI uri, boolean loadOnDemand) {
+				// TODO Auto-generated method stub
+				return null;
+			}
+			
+			@Override
+			public Registry getPackageRegistry() {
+				// TODO Auto-generated method stub
+				return null;
+			}
+			
+			@Override
+			public Map<Object, Object> getLoadOptions() {
+				// TODO Auto-generated method stub
+				return null;
+			}
+			
+			@Override
+			public EObject getEObject(URI uri, boolean loadOnDemand) {
+				// TODO Auto-generated method stub
+				return null;
+			}
+			
+			@Override
+			public TreeIterator<Notifier> getAllContents() {
+				// TODO Auto-generated method stub
+				return null;
+			}
+			
+			@Override
+			public EList<AdapterFactory> getAdapterFactories() {
+				// TODO Auto-generated method stub
+				return null;
+			}
+			
+			@Override
+			public Resource createResource(URI uri, String contentType) {
+				// TODO Auto-generated method stub
+				return null;
+			}
+			
+			@Override
+			public Resource createResource(URI uri) {
+				// TODO Auto-generated method stub
+				return null;
+			}
+		};
+	}*/
+
+	@Override
+	public Object execute(ExecutionEvent event) throws ExecutionException {
+		initResourceSet();
+		
+		try {
+			World container= (World) loadModel();
+			container.getPopulation().forEach(p -> p.birthday());
+			saveModel(container);
+		}
+		catch (IOException e) {
+			e.printStackTrace();
+		}
+		
+		IWorkbenchWindow window = HandlerUtil.getActiveWorkbenchWindowChecked(event);
+		MessageDialog.openInformation(
+				window.getShell(),
+				"Simulator",
+				"Happy Birthday");
+		return null;
+	}
+}

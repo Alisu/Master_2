@@ -1,0 +1,26 @@
+INDEX VERSION 1.131+/media/rogliano/Disque Local/runtime-New_configuration/.metadata/.plugins/org.eclipse.jdt.core
+2484882395.index
+1727267055.index
+711048041.index
+2554530376.index
+550513167.index
+3439395171.index
+1424943187.index
+382271790.index
+2804597954.index
+1907130307.index
+1822881461.index
+1783331679.index
+4199669531.index
+3348001737.index
+2691749888.index
+725129833.index
+1212104418.index
+646308851.index
+3422390878.index
+3016402396.index
+3522397506.index
+1712694694.index
+1616163487.index
+698930540.index
+433009859.index

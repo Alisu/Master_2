@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated tp1bis -->
+      <package
+            uri="tp1bis"
+            class="tp1bis.maps.NewPackage1Package"
+            genModel="model/tp1bis.genmodel"/>
+   </extension>
+
+</plugin>

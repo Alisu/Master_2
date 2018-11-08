@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="tp.metaprogramming.memo.Automobile"/>
+    <fullyQualifiedTypeName name="tp.metaprogramming.memo.AutomobileType"/>
+    <fullyQualifiedTypeName name="tp.metaprogramming.memo.MemoFactory"/>
+    <fullyQualifiedTypeName name="tp.metaprogramming.memo.Person"/>
+    <fullyQualifiedTypeName name="org.eclipse.emf.ecore.EObject"/>
+    <fullyQualifiedTypeName name="java.io.IOException"/>
+    <fullyQualifiedTypeName name="org.eclipse.emf.ecore.xmi.impl.XMIResourceImpl"/>
+    <fullyQualifiedTypeName name="java.io.File"/>
+    <fullyQualifiedTypeName name="java.io.FileInputStream"/>
+    <fullyQualifiedTypeName name="java.io.FileOutputStream"/>
+    <fullyQualifiedTypeName name="java.util.HashMap"/>
+    <fullyQualifiedTypeName name="org.eclipse.emf.ecore.resource.ResourceSet"/>
+    <fullyQualifiedTypeName name="tp.metaprogramming.memo.MemoPackage"/>
+    <fullyQualifiedTypeName name="org.eclipse.emf.ecore.resource.impl.ResourceSetImpl"/>
+    <fullyQualifiedTypeName name="tp.metaprogramming.memo.World"/>
+</qualifiedTypeNameHistroy>

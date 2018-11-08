@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel"
+    modelDirectory="/tp1bis/src-gen" creationIcons="false" editDirectory="/tp1bis.edit/src-gen"
+    editorDirectory="/tp1bis.editor/src-gen" modelPluginID="tp1bis" modelName="Tp1bis"
+    rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container" codeFormatting="true"
+    importerID="org.eclipse.emf.importer.ecore" complianceLevel="10.0" copyrightFields="false"
+    operationReflection="true" importOrganizing="true">
+  <foreignModel>tp1bis.ecore</foreignModel>
+  <testsDirectory xsi:nil="true"/>
+  <genPackages prefix="Tp1bis" disposableProviderFactory="true" ecorePackage="tp1bis.ecore#/">
+    <nestedGenPackages prefix="NewPackage1" disposableProviderFactory="true" ecorePackage="tp1bis.ecore#//maps">
+      <genClasses ecoreClass="tp1bis.ecore#//maps/map">
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference tp1bis.ecore#//maps/map/spaces"/>
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference tp1bis.ecore#//maps/map/roads"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute tp1bis.ecore#//maps/map/name"/>
+      </genClasses>
+      <genClasses ecoreClass="tp1bis.ecore#//maps/Road">
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference tp1bis.ecore#//maps/Road/border"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference tp1bis.ecore#//maps/Road/meet"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute tp1bis.ecore#//maps/Road/name"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute tp1bis.ecore#//maps/Road/length"/>
+      </genClasses>
+      <genClasses ecoreClass="tp1bis.ecore#//maps/PublicSpace">
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference tp1bis.ecore#//maps/PublicSpace/borderdBy"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute tp1bis.ecore#//maps/PublicSpace/name"/>
+      </genClasses>
+      <genClasses ecoreClass="tp1bis.ecore#//maps/Street"/>
+      <genClasses ecoreClass="tp1bis.ecore#//maps/Pedestrian"/>
+      <genClasses ecoreClass="tp1bis.ecore#//maps/Square"/>
+      <genClasses ecoreClass="tp1bis.ecore#//maps/Garden"/>
+    </nestedGenPackages>
+  </genPackages>
+</genmodel:GenModel>

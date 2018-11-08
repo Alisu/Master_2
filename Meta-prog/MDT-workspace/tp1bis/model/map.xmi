@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tp1bis:map
+    xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:tp1bis="tp1bis"
+    xsi:schemaLocation="tp1bis tp1bis.ecore#//maps"
+    name="Map de mon cul">
+  <roads xsi:type="tp1bis:Street"
+      name="Rue de maraie"
+      length="12"/>
+</tp1bis:map>
