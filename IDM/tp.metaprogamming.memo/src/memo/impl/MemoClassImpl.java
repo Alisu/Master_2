@@ -1,0 +1,160 @@
+/**
+ */
+package memo.impl;
+
+import java.util.ArrayList;
+import java.util.Collection;
+
+import memo.MemoClass;
+import memo.MemoPackage;
+
+import org.eclipse.emf.common.util.EList;
+
+import org.eclipse.emf.ecore.EClass;
+
+import org.eclipse.emf.ecore.impl.MinimalEObjectImpl;
+
+import org.eclipse.emf.ecore.util.EDataTypeUniqueEList;
+
+/**
+ * <!-- begin-user-doc -->
+ * An implementation of the model object '<em><b>Class</b></em>'.
+ * <!-- end-user-doc -->
+ * <p>
+ * The following features are implemented:
+ * </p>
+ * <ul>
+ *   <li>{@link memo.impl.MemoClassImpl#getInstances <em>Instances</em>}</li>
+ * </ul>
+ *
+ * @generated
+ */
+public abstract class MemoClassImpl extends MinimalEObjectImpl.Container implements MemoClass {
+	/**
+	 * The cached value of the '{@link #getInstances() <em>Instances</em>}' attribute list.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see #getInstances()
+	 * @generated NOT
+	 * @ordered
+	 */
+	protected static EList<Object> instances;
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated NOT
+	 */
+	protected MemoClassImpl() {
+		super();
+		getInstances().add(this);
+		printInstances();
+	}
+	
+	public void printInstances(){
+		String res ="";
+		for(Object o : getInstances()){
+			res+= o.toString();	
+		}
+		System.out.println(res);
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	protected EClass eStaticClass() {
+		return MemoPackage.Literals.MEMO_CLASS;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public EList<Object> getInstances() {
+		if (instances == null) {
+			instances = new EDataTypeUniqueEList<Object>(Object.class, this, MemoPackage.MEMO_CLASS__INSTANCES);
+		}
+		return instances;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Object eGet(int featureID, boolean resolve, boolean coreType) {
+		switch (featureID) {
+			case MemoPackage.MEMO_CLASS__INSTANCES:
+				return getInstances();
+		}
+		return super.eGet(featureID, resolve, coreType);
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@SuppressWarnings("unchecked")
+	@Override
+	public void eSet(int featureID, Object newValue) {
+		switch (featureID) {
+			case MemoPackage.MEMO_CLASS__INSTANCES:
+				getInstances().clear();
+				getInstances().addAll((Collection<? extends Object>)newValue);
+				return;
+		}
+		super.eSet(featureID, newValue);
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public void eUnset(int featureID) {
+		switch (featureID) {
+			case MemoPackage.MEMO_CLASS__INSTANCES:
+				getInstances().clear();
+				return;
+		}
+		super.eUnset(featureID);
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public boolean eIsSet(int featureID) {
+		switch (featureID) {
+			case MemoPackage.MEMO_CLASS__INSTANCES:
+				return instances != null && !instances.isEmpty();
+		}
+		return super.eIsSet(featureID);
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public String toString() {
+		/*if (eIsProxy())*/ return super.toString();
+
+		/*StringBuffer result = new StringBuffer(super.toString());
+		result.append(" (instances: ");
+		result.append(instances);
+		result.append(')');
+		return result.toString();*/
+	}
+
+} //MemoClassImpl

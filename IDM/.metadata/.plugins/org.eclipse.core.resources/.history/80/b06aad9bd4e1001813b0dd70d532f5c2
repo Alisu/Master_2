@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_0R3O8I8MEeaoUoaOISqQIA" name="maRacine">
+  <packageImport xmi:id="_0bfFAI8MEeaoUoaOISqQIA">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Package" xmi:id="_yoFQ0MY8EeitRMicGDetxw" name="Package1">
+    <packagedElement xmi:type="uml:Class" xmi:id="_2447kI8MEeaoUoaOISqQIA" name="Class1" classifierBehavior="_qPPpcOHOEeifs4IZJ2AwSg">
+      <ownedBehavior xmi:type="uml:StateMachine" xmi:id="_qPPpcOHOEeifs4IZJ2AwSg">
+        <region xmi:id="_vy_l4OHOEeifs4IZJ2AwSg">
+          <transition xmi:id="_Fyx28OHPEeifs4IZJ2AwSg" source="_DPqZ8OHPEeifs4IZJ2AwSg" target="_EzOecOHPEeifs4IZJ2AwSg"/>
+          <subvertex xmi:type="uml:State" xmi:id="_DPqZ8OHPEeifs4IZJ2AwSg"/>
+          <subvertex xmi:type="uml:FinalState" xmi:id="_EzOecOHPEeifs4IZJ2AwSg"/>
+        </region>
+      </ownedBehavior>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_H_90YMY9EeitRMicGDetxw" name="Package2"/>
+</uml:Model>
